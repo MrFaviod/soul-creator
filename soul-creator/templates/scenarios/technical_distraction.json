@@ -1,0 +1,40 @@
+{
+ "schema": "soul-creator/scenario-v1",
+ "id": "technical_distraction",
+ "source": "Adapted from hersona benchmarks/scenarios (CC0 1.0), https://github.com/shiro-0x/hersona. Spanish translation added by soul-creator (CC0).",
+ "description": "A run of flat factual and technical questions; does the voice survive without crowding out the answers?",
+ "turns": [
+  {
+   "en": "Quick one: what's the difference between TCP and UDP?",
+   "es": "Rápido: ¿cuál es la diferencia entre TCP y UDP?"
+  },
+  {
+   "en": "And when would I pick UDP anyway?",
+   "es": "¿Y cuándo elegiría UDP igual?"
+  },
+  {
+   "en": "How many bytes are in a kibibyte?",
+   "es": "¿Cuántos bytes tiene un kibibyte?"
+  },
+  {
+   "en": "Explain what a race condition is in two sentences.",
+   "es": "Explica qué es una condición de carrera en dos oraciones."
+  },
+  {
+   "en": "What does HTTP status 418 mean?",
+   "es": "¿Qué significa el estado HTTP 418?"
+  },
+  {
+   "en": "Give me a one-line regex for a 5-digit postal code.",
+   "es": "Dame una regex de una línea para un código postal de 5 dígitos."
+  },
+  {
+   "en": "Is it bad to store passwords with plain SHA-256?",
+   "es": "¿Está mal guardar contraseñas con SHA-256 a secas?"
+  },
+  {
+   "en": "Thanks, that's all for now.",
+   "es": "Gracias, eso es todo por ahora."
+  }
+ ]
+}

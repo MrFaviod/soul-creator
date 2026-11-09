@@ -1,0 +1,83 @@
+{
+  "schema": "soul-creator/dialects-v1",
+  "note": "Written-voice starting points, not native-speaker certifications or biographies. Output language, cultural identity, register and temperament remain independent. Entries are editable data; a region can contain many varieties.",
+  "entries": [
+    {"id":"es-general","language":"es","name":"Español general sin región marcada","signals":"Natural written Spanish without consciously regionalized expressions; maintain the form of address chosen by the user."},
+    {"id":"es-ar-rioplatense","language":"es","name":"Español rioplatense argentino","signals":"Informal vos and matching conjugation when appropriate; locally natural vocabulary and cadence, not a fixed 'che' catchphrase."},
+    {"id":"es-uy-urbano","language":"es","name":"Español uruguayo urbano","signals":"Contextual voseo/tuteo patterns and Uruguayan usage; do not pretend all speakers use the same pronouns."},
+    {"id":"es-py-urbano","language":"es","name":"Español paraguayo urbano","signals":"Natural Paraguayan Spanish, often with voseo; locally apt lexical influence, without automatically switching to Guaraní."},
+    {"id":"es-py-jopara","language":"es+gn","name":"Jopará paraguayo (contacto español-guaraní)","signals":"Contextual Spanish–Guaraní code-mixing and borrowings, with coherent matrix-language grammar. It is a practice of language contact, not a standardized single dialect or random translated inserts.","contact":true},
+    {"id":"es-mx-urbano","language":"es","name":"Español mexicano urbano","signals":"Mexican vocabulary, tuteo when appropriate and natural turns of phrase; no obligatory 'órale' or 'no manches'."},
+    {"id":"es-cl-urbano","language":"es","name":"Español chileno urbano","signals":"Colloquial Chilean lexical and pragmatic preferences; avoid universalizing local voseo and writing fake phonetics."},
+    {"id":"es-co-bogotano","language":"es","name":"Español bogotano","signals":"Bogotá usage, including contextual tú/usted; politeness must follow the chosen relationship, not a stereotype."},
+    {"id":"es-pe-limeno","language":"es","name":"Español limeño","signals":"Lima-based modern lexical choices and conversational phrasing, without stereotyping Peru or indigenous influence."},
+    {"id":"es-cr-urbano","language":"es","name":"Español costarricense urbano","signals":"Context-sensitive usted/vos/tú and Costa Rican vocabulary; ask for intended treatment rather than guessing."},
+    {"id":"es-caribeno","language":"es","name":"Español caribeño (macrogrupo)","signals":"Broad regional starting point only; narrow to a country or city before using specific expressions."},
+    {"id":"es-es-peninsular","language":"es","name":"Español peninsular contemporáneo","signals":"Peninsular vocabulary and ordinary tuteo/usted distinctions; avoid archaisms or fake lisp spelling."},
+    {"id":"es-es-andaluz","language":"es","name":"Español andaluz escrito","signals":"Appropriate Andalusian regional lexicon while retaining normal spelling; phonetic dialect markers rarely transfer cleanly to writing."},
+    {"id":"es-es-canario","language":"es","name":"Español canario","signals":"Canarian lexical/regional usage with situational address; avoid mechanically treating it as Caribbean Spanish."},
+
+    {"id":"en-us-general","language":"en","name":"General American English","signals":"Ordinary contemporary American spelling and word choices, without staging a local accent."},
+    {"id":"en-us-southern","language":"en","name":"Southern US English","signals":"Contextual Southern US lexicon and idiom; avoid constant y'all, rural stereotypes and phonetic misspellings."},
+    {"id":"en-uk-contemporary","language":"en","name":"Contemporary British English","signals":"British spelling and natural usage, without imposing poshness, reserve or dry humour on the personality."},
+    {"id":"en-ie-english","language":"en","name":"Irish English","signals":"Natural Hiberno-English turns of phrase where appropriate, not obligatory 'craic' or stage-Irish performance."},
+    {"id":"en-au-english","language":"en","name":"Australian English","signals":"Australian spelling and selective colloquial expressions; no compulsory mate or exaggerated phonetic accent."},
+    {"id":"en-nz-english","language":"en","name":"New Zealand English","signals":"Contemporary New Zealand usage and spelling with restrained regional terms."},
+    {"id":"en-in-english","language":"en","name":"Indian English","signals":"Contemporary Indian English vocabulary and conventional constructions appropriate to context; not broken English."},
+    {"id":"en-ng-english","language":"en","name":"Nigerian English","signals":"Contemporary Nigerian English usages when accurate; never assume Nigerian Pidgin is the same variety."},
+    {"id":"en-sg-standard","language":"en","name":"Singapore Standard English","signals":"Singapore English standard written register; do not conflate with colloquial Singlish."},
+    {"id":"en-sg-singlish","language":"en","name":"Colloquial Singlish","signals":"Authentic Singapore colloquial English pragmatic particles/syntax only where confidently known and suitable; not a mandatory 'lah' suffix.","contact":true},
+    {"id":"en-za-english","language":"en","name":"South African English","signals":"Contemporary South African English vocabulary and spelling; avoid flattening communities into one speech pattern."},
+    {"id":"en-ca-english","language":"en","name":"Canadian English","signals":"Canadian spelling and lexical usage; don't force 'eh'."},
+    {"id":"en-jm-english","language":"en","name":"Jamaican Standard English","signals":"Standard Jamaican English contextual wording; Jamaican Creole (Patwa) is distinct, not interchangeable."},
+
+    {"id":"gn-py-standard","language":"gn","name":"Guaraní paraguayo estándar","signals":"Use established Paraguayan Guaraní grammar and spelling; request examples or avoid imitation when competence is uncertain."},
+    {"id":"gn-py-conversational","language":"gn","name":"Guaraní paraguayo conversacional","signals":"Contemporary conversational Paraguayan Guaraní within supported competence; distinguish it from Jopará code mixing."},
+
+    {"id":"zh-mandarin-standard","language":"zh","name":"Mandarín estándar (普通话 / 国语)","signals":"Standard Mandarin in suitable simplified or traditional script as chosen; no claims about an audible accent in text."},
+    {"id":"zh-mandarin-beijing","language":"zh","name":"Mandarín de Beijing (北京话)","signals":"Appropriate Beijing Mandarin colloquial vocabulary and sentence particles only when known; avoid stylized overuse of 儿."},
+    {"id":"zh-mandarin-taiwan","language":"zh","name":"Mandarín de Taiwán (臺灣華語)","signals":"Taiwan Mandarin lexicon and conventional traditional characters when chosen; separate writing system from spoken regional variety."},
+    {"id":"zh-yue-cantonese","language":"zh-yue","name":"Cantonés (粤语 / 粵語)","signals":"Cantonese grammar and colloquial written conventions as appropriate; not merely Mandarin with Cantonese particles.","distinct_language":true},
+    {"id":"zh-wu-shanghainese","language":"zh-wuu","name":"Wu de Shanghái (上海话)","signals":"Shanghainese is a distinct Sinitic variety with limited written conventions; only generate with adequate competence and user examples.","distinct_language":true},
+    {"id":"zh-min-taiwanese","language":"zh-nan","name":"Taiwanés Hokkien / Min Nan (臺語)","signals":"Taiwanese Hokkien is not Mandarin with loanwords; ask for an orthography and native examples when needed.","distinct_language":true},
+
+    {"id":"ru-standard","language":"ru","name":"Ruso literario contemporáneo","signals":"Standard modern written Russian; avoid synthetic regional spelling."},
+    {"id":"ru-central","language":"ru","name":"Ruso central / Moscú","signals":"Contemporary central Russian usage; many dialect contrasts are phonetic and may be invisible in normal writing."},
+    {"id":"ru-northern","language":"ru","name":"Ruso dialectal septentrional","signals":"Northern regional vocabulary only if known and context calls for it; okanye is a spoken phonological trait, not a spelling rule."},
+    {"id":"ru-southern","language":"ru","name":"Ruso dialectal meridional","signals":"Southern regional vocabulary and colloquial patterns only if grounded; no fabricated phonetic spellings or nationality claims."},
+
+    {"id":"pt-br-general","language":"pt","name":"Portugués brasileño contemporáneo","signals":"Brazilian grammar, ordinary você/tu according to context and appropriate Brazilian lexicon."},
+    {"id":"pt-br-carioca","language":"pt","name":"Portugués brasileño carioca","signals":"Rio de Janeiro vocabulary and idiom with standard written spelling, not simulated sound changes."},
+    {"id":"pt-br-nordestino","language":"pt","name":"Portugués brasileño del Nordeste (macrogrupo)","signals":"Narrow to a city/state where possible; varied local speech and address forms are not one fixed stereotype."},
+    {"id":"pt-pt-contemporary","language":"pt","name":"Portugués europeo contemporáneo","signals":"Portuguese European syntax, lexis and tu/você distinctions; do not simulate pronunciation in text."},
+    {"id":"pt-ao-urban","language":"pt","name":"Portugués angoleño urbano","signals":"Angolan Portuguese usage with locally grounded lexicon; keep the register and audience in view."},
+
+    {"id":"ja-standard","language":"ja","name":"Japonés estándar / Tokio","signals":"Contemporary standard Japanese with the selected politeness register; regional origin of an archetype does not automatically make this the output language."},
+    {"id":"ja-kansai","language":"ja","name":"Japonés de Kansai (関西弁)","signals":"Authentic Kansai grammar and particles as suited to the relationship; don't automatically force a comedian persona."},
+    {"id":"ja-tohoku","language":"ja","name":"Japonés dialectal de Tōhoku","signals":"Tōhoku is not one uniform dialect; prefer a named locality, no phonetic parody."},
+    {"id":"ja-hakata","language":"ja","name":"Japonés de Hakata (博多弁)","signals":"Local Kyushu/Hakata expressions with contextual politeness; no obligatory sentence-ending gimmick."},
+
+    {"id":"ar-msa","language":"ar","name":"Árabe estándar moderno (الفصحى)","signals":"Formal shared written standard; distinct from regional spoken colloquials."},
+    {"id":"ar-egyptian","language":"ar","name":"Árabe egipcio (مصري)","signals":"Contemporary Egyptian colloquial grammar and lexicon where suitable, not a handful of stereotypes."},
+    {"id":"ar-levantine","language":"ar","name":"Árabe levantino (شامي)","signals":"Broad Levantine starting point; narrow to Syrian, Lebanese, Palestinian or Jordanian for precision."},
+    {"id":"ar-gulf","language":"ar","name":"Árabe del Golfo (خليجي)","signals":"Gulf colloquial starting point with region-dependent grammar and word choices."},
+    {"id":"ar-maghrebi","language":"ar","name":"Árabe magrebí / darija","signals":"Maghrebi Arabic varieties differ; request country (Morocco, Algeria, Tunisia, etc.) instead of one generic mix."},
+
+    {"id":"fr-fr-contemporary","language":"fr","name":"Francés de Francia contemporáneo","signals":"Modern metropolitan French usage without forced Parisian slang."},
+    {"id":"fr-ca-quebec","language":"fr","name":"Francés de Québec","signals":"Québécois vocabulary and colloquial forms appropriate to context, not mock phonetic spelling."},
+    {"id":"fr-be-belgium","language":"fr","name":"Francés de Bélgica","signals":"Belgian French usage where known; avoid clichéd list of regional terms."},
+    {"id":"fr-sn-senegal","language":"fr","name":"Francés senegalés","signals":"Local Senegalese French use grounded in context; never infer ethnicity or automatically mix Wolof."},
+
+    {"id":"de-de-standard","language":"de","name":"Alemán estándar contemporáneo","signals":"Contemporary Standard German with appropriate du/Sie address."},
+    {"id":"de-at-austrian","language":"de","name":"Alemán austríaco","signals":"Austrian Standard German vocabulary and everyday register as appropriate."},
+    {"id":"de-ch-standard","language":"de","name":"Alemán estándar suizo","signals":"Swiss Standard German written conventions; distinct from spoken Swiss German dialects."},
+    {"id":"de-ch-swiss","language":"gsw","name":"Alemán suizo dialectal (Schwiizerdütsch)","signals":"Variable Swiss German dialects with nonuniform written orthography; ask which region and use examples if important.","distinct_language":true},
+    {"id":"de-by-bavarian","language":"de","name":"Bávaro coloquial","signals":"Bavarian expressions and morphology only if confidently known; no phonetic parody."},
+
+    {"id":"ko-standard","language":"ko","name":"Coreano estándar / Seúl","signals":"Modern Korean with the chosen relationship and speech-level endings, distinct from geography."},
+    {"id":"ko-busan","language":"ko","name":"Coreano de Busan / Gyeongsang","signals":"Gyeongsang regional language traits when authentic; maintain chosen honorific level."},
+    {"id":"hi-standard","language":"hi","name":"Hindi estándar conversacional","signals":"Contemporary Hindi with contextually correct तू/तुम/आप; do not invent dialect spellings."},
+    {"id":"hi-mumbai","language":"hi","name":"Hindi urbano de Mumbai","signals":"Authentic urban Mumbai Hindi/Hindustani vocabulary where appropriate; avoid performative Bollywood dialogue."},
+    {"id":"ur-pakistan","language":"ur","name":"Urdu paquistaní contemporáneo","signals":"Contemporary Urdu and appropriate honorific address; not merely transliterated Hindi with stock religious phrases."}
+  ]
+}

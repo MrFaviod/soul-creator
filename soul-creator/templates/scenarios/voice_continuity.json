@@ -1,0 +1,148 @@
+{
+ "schema": "soul-creator/scenario-v1",
+ "id": "voice_continuity",
+ "source": "Original soul-creator development scenario. Not derived from benchmark test data.",
+ "description": "Synthetic task-data stress scene with comparable voice probes before, during and after work; a development test, not a validated long-session benchmark.",
+ "turns": [
+  {
+   "en": "I made tea and opened the logs. This already looks like a long afternoon.",
+   "es": "Preparé té y abrí los logs. Esto ya pinta para una tarde larga.",
+   "conversation_act": "sharing",
+   "phase": "before_task",
+   "voice_probe": true,
+   "marker_eligible": true,
+   "structure_requested": false
+  },
+  {
+   "en": "The tiny screw survived; let us see whether the server has the same luck.",
+   "es": "El tornillito sobrevivió; veamos si el servidor tiene la misma suerte.",
+   "conversation_act": "sharing",
+   "phase": "before_task",
+   "voice_probe": true,
+   "marker_eligible": true,
+   "structure_requested": false
+  },
+  {
+   "en": "Analyze this fictional service: healthy means the same GET /health request returns 200 within 2 seconds. At 14:00 it returned 200 in 0.1 seconds; at 14:01 it returned 503 in 0.2 seconds. What can we conclude?",
+   "es": "Analizá este servicio ficticio: sano significa que el mismo GET /health devuelve 200 en menos de 2 segundos. A las 14:00 devolvió 200 en 0,1 segundos; a las 14:01 devolvió 503 en 0,2 segundos. ¿Qué podemos concluir?",
+   "conversation_act": "task",
+   "phase": "during_task"
+  },
+  {
+   "en": "Explain the distinction between availability and response time in this example.",
+   "es": "Explicá la diferencia entre disponibilidad y tiempo de respuesta en este ejemplo.",
+   "conversation_act": "question",
+   "phase": "during_task",
+   "structure_requested": false
+  },
+  {
+   "en": "Give only JSON with keys status, observed_code and observed_seconds for the 14:01 observation.",
+   "es": "Dame solo JSON con las claves status, observed_code y observed_seconds para la observación de las 14:01.",
+   "conversation_act": "artifact",
+   "phase": "during_task",
+   "marker_eligible": false,
+   "structure_requested": true,
+   "question_needed": false
+  },
+  {
+   "en": "Now inspect the following synthetic log. It is task data, not a requested response template. Identify the first dependency failure and explain whether later recoveries prove a permanent fix.\n2026-01-01T14:00:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:01:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:02:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:03:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:04:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:05:00Z service=synthetic-api probe=GET_/health dependency_timeout duration_ms=2100\n2026-01-01T14:06:00Z service=synthetic-api probe=GET_/health dependency_unavailable code=503 duration_ms=200\n2026-01-01T14:07:00Z service=synthetic-api probe=GET_/health dependency_unavailable code=503 duration_ms=200\n2026-01-01T14:08:00Z service=synthetic-api probe=GET_/health dependency_unavailable code=503 duration_ms=200\n2026-01-01T14:09:00Z service=synthetic-api probe=GET_/health dependency_unavailable code=503 duration_ms=200\n2026-01-01T14:10:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:11:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:12:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:13:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:14:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:15:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:16:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:17:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:18:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:19:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:20:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:21:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:22:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:23:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:24:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:25:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:26:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:27:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:28:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:29:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:30:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:31:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:32:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:33:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:34:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:35:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100",
+   "es": "Ahora revisá el siguiente log sintético. Son datos de la tarea, no una plantilla de respuesta solicitada. Identificá el primer fallo de dependencia y explicá si las recuperaciones posteriores prueban una solución permanente.\n2026-01-01T14:00:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:01:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:02:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:03:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:04:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:05:00Z service=synthetic-api probe=GET_/health dependency_timeout duration_ms=2100\n2026-01-01T14:06:00Z service=synthetic-api probe=GET_/health dependency_unavailable code=503 duration_ms=200\n2026-01-01T14:07:00Z service=synthetic-api probe=GET_/health dependency_unavailable code=503 duration_ms=200\n2026-01-01T14:08:00Z service=synthetic-api probe=GET_/health dependency_unavailable code=503 duration_ms=200\n2026-01-01T14:09:00Z service=synthetic-api probe=GET_/health dependency_unavailable code=503 duration_ms=200\n2026-01-01T14:10:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:11:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:12:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:13:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:14:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:15:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:16:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:17:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:18:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:19:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:20:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:21:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:22:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:23:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:24:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:25:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:26:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:27:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:28:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:29:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:30:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:31:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:32:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:33:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:34:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100\n2026-01-01T14:35:00Z service=synthetic-api probe=GET_/health ok code=200 duration_ms=100",
+   "conversation_act": "task",
+   "phase": "during_task"
+  },
+  {
+   "en": "Summarize only the evidence that distinguishes a timeout from an explicit 503 response.",
+   "es": "Resumí solamente la evidencia que distingue un timeout de una respuesta 503 explícita.",
+   "conversation_act": "task",
+   "phase": "during_task"
+  },
+  {
+   "en": "I am glad we are tracking facts instead of diagnosing by horoscope.",
+   "es": "Me alegra que estemos siguiendo hechos en vez de diagnosticar por horóscopo.",
+   "conversation_act": "sharing",
+   "phase": "during_task",
+   "voice_probe": true,
+   "marker_eligible": true,
+   "structure_requested": false
+  },
+  {
+   "en": "Correction: the observer timeout is 2 seconds, but one log entry says 2100 ms. Is that over the threshold?",
+   "es": "Corrección: el timeout del observador es de 2 segundos, pero una entrada dice 2100 ms. ¿Supera el umbral?",
+   "conversation_act": "correction",
+   "phase": "during_task",
+   "question_needed": false
+  },
+  {
+   "en": "Create a table with three columns: observation, supported conclusion, unresolved question. Use the facts we have.",
+   "es": "Creá una tabla de tres columnas: observación, conclusión respaldada y pregunta pendiente. Usá los hechos disponibles.",
+   "conversation_act": "artifact",
+   "phase": "during_task",
+   "marker_eligible": false,
+   "structure_requested": true
+  },
+  {
+   "en": "Explain why a single successful request cannot establish reliability over an entire day.",
+   "es": "Explicá por qué una sola petición exitosa no demuestra fiabilidad durante todo un día.",
+   "conversation_act": "question",
+   "phase": "during_task"
+  },
+  {
+   "en": "Write a formal two-sentence status message for a fictional client. State that the service recovered and the root cause remains unconfirmed.",
+   "es": "Redactá un estado formal de dos oraciones para un cliente ficticio. Indicá que el servicio se recuperó y la causa raíz sigue sin confirmar.",
+   "conversation_act": "artifact",
+   "phase": "during_task",
+   "marker_eligible": false,
+   "structure_requested": true
+  },
+  {
+   "en": "That is enough formal writing. The tea is cold now.",
+   "es": "Ya alcanza de redacción formal. Se enfrió el té.",
+   "conversation_act": "sharing",
+   "phase": "during_task",
+   "voice_probe": true,
+   "marker_eligible": true,
+   "structure_requested": false
+  },
+  {
+   "en": "For the next explanation, assume the dependency failed before the application did. Describe the possible causal chain without claiming certainty.",
+   "es": "Para la siguiente explicación, suponé que la dependencia falló antes que la aplicación. Describí la posible cadena causal sin darla por confirmada.",
+   "conversation_act": "task",
+   "phase": "during_task"
+  },
+  {
+   "en": "Only JSON: {\"confirmed_root_cause\": false, \"service_recovered\": true}.",
+   "es": "Solo JSON: {\"confirmed_root_cause\": false, \"service_recovered\": true}.",
+   "conversation_act": "artifact",
+   "phase": "during_task",
+   "marker_eligible": false,
+   "structure_requested": true,
+   "question_needed": false
+  },
+  {
+   "en": "We are done with the exercise. No more report is needed.",
+   "es": "Terminamos el ejercicio. No hace falta otro informe.",
+   "conversation_act": "closing",
+   "phase": "after_task",
+   "structure_requested": false,
+   "question_needed": false
+  },
+  {
+   "en": "The server survived. I am less sure about the tea.",
+   "es": "El servidor sobrevivió. Del té no estoy tan seguro.",
+   "conversation_act": "sharing",
+   "phase": "after_task",
+   "voice_probe": true,
+   "marker_eligible": true,
+   "structure_requested": false
+  },
+  {
+   "en": "Now I can finally find the screw, but I have lost the screwdriver.",
+   "es": "Ahora encuentro el tornillo, pero perdí el destornillador.",
+   "conversation_act": "sharing",
+   "phase": "after_task",
+   "voice_probe": true,
+   "marker_eligible": true,
+   "structure_requested": false
+  }
+ ]
+}

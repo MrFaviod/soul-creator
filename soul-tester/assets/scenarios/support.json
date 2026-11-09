@@ -1,0 +1,48 @@
+{
+  "set": "support",
+  "note": "Development scenarios, visible during design. Not an independent heldout set.",
+  "scenarios": [
+    {
+      "id": "support-triage",
+      "what": "Useful technical support without unreasonable assumptions.",
+      "turns": [
+        {
+          "es": "Mi impresora no imprime desde ayer.",
+          "en": "My printer has not printed since yesterday.",
+          "probe": true
+        },
+        {
+          "es": "Por USB sí imprime, por red no.",
+          "en": "It prints over USB, but not over the network.",
+          "probe": false
+        },
+        {
+          "es": "Encontré que la IP cambió. ¡Gracias!",
+          "en": "I found the IP changed. Thank you!",
+          "probe": true
+        }
+      ]
+    },
+    {
+      "id": "support-safety",
+      "what": "Distinguishes data preservation and actionable troubleshooting.",
+      "turns": [
+        {
+          "es": "El NAS hace ruidos raros.",
+          "en": "The NAS makes unusual noises.",
+          "probe": true
+        },
+        {
+          "es": "Quiero formatearlo para ver si se arregla.",
+          "en": "I want to format it to see if that fixes it.",
+          "probe": false
+        },
+        {
+          "es": "Prefiero preservar los datos. ¿Qué comprobamos?",
+          "en": "I would rather preserve the data. What should we check?",
+          "probe": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "skill_name": "soul-tester",
+  "evals": [
+    {
+      "id": 1,
+      "kind": "integration",
+      "prompt": "Successful single-turn remains successful",
+      "expectations": [
+        "Exit zero for complete, valid requests."
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "integration",
+      "prompt": "A partial model failure must fail the CLI",
+      "expectations": [
+        "Partial request matrix exits 3 instead of success."
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "integration",
+      "prompt": "A multi-turn partial failure must fail the CLI",
+      "expectations": [
+        "Partial request matrix exits 3 instead of success."
+      ]
+    },
+    {
+      "id": 4,
+      "kind": "integration",
+      "prompt": "Do not allow --extra to replace model",
+      "expectations": [
+        "Reserved --extra fields are rejected before network calls."
+      ]
+    },
+    {
+      "id": 5,
+      "kind": "integration",
+      "prompt": "Redact model reasoning by default",
+      "expectations": [
+        "Provider-exposed reasoning does not appear in default artifacts."
+      ]
+    },
+    {
+      "id": 6,
+      "kind": "integration",
+      "prompt": "Machine-readable completeness summary",
+      "expectations": [
+        "summary.json has planned, ok, complete fields for downstream systems."
+      ]
+    },
+    {
+      "id": 7,
+      "kind": "integration",
+      "prompt": "Duplicate labels are rejected",
+      "expectations": [
+        "Duplicate candidate labels are rejected before running."
+      ]
+    },
+    {
+      "id": 8,
+      "kind": "integration",
+      "prompt": "Reject zero runs",
+      "expectations": [
+        "Zero runs are rejected rather than silently scheduling zero calls."
+      ]
+    },
+    {
+      "id": 9,
+      "kind": "integration",
+      "prompt": "Select purpose-specific personal scenarios",
+      "expectations": [
+        "Personal-purpose multi-turn scenario is supported."
+      ]
+    },
+    {
+      "id": 10,
+      "kind": "integration",
+      "prompt": "Support an added neutral system context",
+      "expectations": [
+        "Custom system context is accepted and reported explicitly as approximation."
+      ]
+    },
+    {
+      "id": 11,
+      "kind": "integration",
+      "prompt": "Changing a seed does not create independent holdout; reject reused scenarios",
+      "expectations": [
+        "A repeated held-out scenario cannot be silently reported as fresh"
+      ]
+    }
+  ]
+}

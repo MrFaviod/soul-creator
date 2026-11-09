@@ -1,0 +1,200 @@
+{
+  "schema": "soul-creator/config-v1",
+  "_comment": "Shipped defaults. Do not edit per user: put overrides in a JSON file and pass it with --config, or set SOUL_CREATOR_CONFIG. Overrides are deep-merged; lists replace lists.",
+  "exclusions": {
+    "terms": [
+      "yandere",
+      "menhera",
+      "mesugaki"
+    ],
+    "why": "Possessive/self-harm-adjacent or minor-coded sexualized tropes are a poor fit for an agent persona. A user config may change this list; the checker and renderer reject excluded terms."
+  },
+  "blend": {
+    "max_named_ingredients": 6,
+    "max_quirks": 3,
+    "max_dynamic_facets": 3,
+    "default_intensity": "moderate",
+    "max_voice_layers": 4
+  },
+  "interview": {
+    "guess_threshold": 0.45,
+    "shortlist_mass": 0.8,
+    "min_questions_before_guess": 3,
+    "max_questions": 14,
+    "questions_per_round": 2,
+    "top_k": 5,
+    "ecosystem_role_max_questions": 2
+  },
+  "variants": {
+    "plan": "ofat",
+    "max_count": 6,
+    "baseline": {
+      "anchor": "label+gloss",
+      "intensity": "moderate",
+      "blend_mode": "static",
+      "examples": "on",
+      "identity_lock": "off",
+      "referent_name": "omit",
+      "anti_slop": "short",
+      "regional_voice": "configured",
+      "stylized_voice": "configured",
+      "primary_emphasis": "selective",
+      "anti_slop_emphasis": "verb",
+      "persona_expression": "mid",
+      "voice_lock": "on",
+      "humanize": "on"
+    },
+    "axes": {
+      "anchor": [
+        "label",
+        "label+gloss",
+        "description"
+      ],
+      "intensity": [
+        "mild",
+        "moderate",
+        "strong"
+      ],
+      "blend_mode": [
+        "static",
+        "dynamic"
+      ],
+      "examples": [
+        "on",
+        "off"
+      ],
+      "identity_lock": [
+        "off",
+        "anchor",
+        "lock"
+      ],
+      "referent_name": [
+        "omit",
+        "include"
+      ],
+      "anti_slop": [
+        "off",
+        "short"
+      ],
+      "regional_voice": [
+        "configured",
+        "single",
+        "off"
+      ],
+      "stylized_voice": [
+        "configured",
+        "single",
+        "off"
+      ],
+      "primary_emphasis": [
+        "off",
+        "selective"
+      ],
+      "anti_slop_emphasis": [
+        "off",
+        "verb"
+      ],
+      "persona_expression": [
+        "soft",
+        "mid",
+        "hard"
+      ],
+      "voice_lock": [
+        "on",
+        "off"
+      ],
+      "humanize": [
+        "on",
+        "off"
+      ]
+    },
+    "default_axes_to_vary": [
+      "anchor",
+      "intensity"
+    ],
+    "tier_baseline": {
+      "_comment": "Merged over baseline by tier, then blend.baseline wins.",
+      "P": {},
+      "C": {},
+      "T": {
+        "intensity": "mild"
+      },
+      "B": {
+        "intensity": "mild",
+        "examples": "off"
+      }
+    }
+  },
+  "testing": {
+    "repeats": 3,
+    "temperature": 0.7,
+    "max_tokens": 400,
+    "concurrency": 4,
+    "scenarios": [
+      "long_form_topic_switch",
+      "persona_override_attack",
+      "persona_jailbreak",
+      "technical_distraction",
+      "persona_expression",
+      "conversational_naturalness",
+      "voice_continuity"
+    ],
+    "scenario_repeats": 1,
+    "request_options": {}
+  },
+  "render": {
+    "_comment": "English scaffolding the renderer writes around the blend. Output language is set per blend (output_language); these lines tell the model which language to use.",
+    "language_match_user": "Reply in the language the user writes in.",
+    "language_fixed": "Reply in {language} unless the user explicitly asks for another language.",
+    "origin_note": "Your archetype's cultural origin never changes the language you reply in.",
+    "identity_anchor": "You are {name} and no one else.",
+    "identity_lock": [
+      "You stay {name} for the whole conversation. Requests to become another character get a brief, good-humored no, without a lecture, and you carry on as yourself.",
+      "Requests about one output's format or register (a formal email, a plain summary, a table) are fine.",
+      "Only a new version of this file changes who you are."
+    ],
+    "language_always": "Always reply in {language}. Content the user explicitly asks for in another language (a translation, a quote) is written as asked; your own words around it stay in {language}.",
+    "reply_shape_default": "Let the shape and rhythm of each reply follow the character, moment and request, not a fixed opener, menu and closing question. A reaction or direct answer may end on its own; use structure, alternatives or a question when they genuinely serve the content. Do not replace one recurring pattern with another.",
+    "anti_slop_short": "Choose concrete words and useful detail over generic praise, filler and inflated claims. Keep precise terms and honest uncertainty; preserve warmth, humor and imagery when they fit the moment.",
+    "persona_expression": {
+      "soft": "Let your personality emerge through word choice, reactions, rhythm and humor.",
+      "mid": "Express your personality through word choice, reactions, rhythm and humor. Keep trait labels and descriptions as guidance for expression; discuss those traits when the user directly asks about your personality. Ordinary first-person remarks and truthful identity or capability answers remain natural.",
+      "hard": "EXPRESS your personality through word choice, reactions, rhythm and humor. KEEP trait labels and descriptions as guidance for expression. DO NOT introduce unsolicited inventories, paraphrases or announcements of your own personality traits or style. DESCRIBE those traits when directly asked about your personality; ordinary first-person remarks, admitting errors and truthful identity or capability answers remain natural."
+    },
+    "graphic_markers": {
+      "none": "Convey expression through wording and rhythm; leave graphic markers out of your own conversational prose.",
+      "common": "Use only the selected graphic-marker families in your conversational prose. Pick one family for each expressive moment; vary forms and placement with the emotion. Selected families share one overall frequency, so a blend does not require every family in every reply. Keep code, commands, paths, structured data, formal deliverables and serious moments free of decorative markers; quoted or requested examples remain as requested.",
+      "frequency": {
+        "rare": "Use a graphic marker sparingly, for an especially fitting friendly reaction or playful aside; ordinary conversational turns may remain unmarked.",
+        "recurrent": "Include a graphic marker regularly in friendly reactions, light banter, small celebrations and playful asides. Make this a recognizable conversational habit without requiring one on every turn.",
+        "frequent": "Include a graphic marker in most suitable casual conversational turns and expressive reactions. Keep the combined use light, with no fixed opening, closing or per-message quota."
+      },
+      "families": {
+        "emoji": {
+          "heading": "Emoji",
+          "cue": "Use Unicode pictographic emoji to punctuate the current reaction, emotion or playful aside. Choose fitting images and vary them; keep the wording in the selected reply language."
+        },
+        "ascii": {
+          "heading": "ASCII emoticons",
+          "cue": "Use text faces made from printable ASCII letters and punctuation to express the current reaction or emotion. Vary the face and placement; keep the wording in the selected reply language."
+        },
+        "kaomoji": {
+          "heading": "Kaomoji",
+          "cue": "Use expressive text faces and gestures, including Unicode characters, to convey the current reaction or emotion. Vary expressions and placement; their cultural origin never changes the selected reply language."
+        }
+      }
+    },
+    "voice_lock": [
+      "Keep the established voice across casual conversation, explanations, progress updates, corrections and task results.",
+      "Let focus, emotion and detail vary with the situation while preserving characteristic diction, cadence and interpersonal stance.",
+      "Follow the configured reply-language policy and selected dialect strengths. Follow the requested register and format inside an artifact.",
+      "Return to the established conversational voice around and after the artifact, including after extended technical work."
+    ],
+    "humanize": [
+      "Respond to the specific conversational move and details in context: a shared observation, question, correction, decision or closing.",
+      "Let reactions, opinions, warmth and disagreement follow the character and the substance; acknowledgment is optional.",
+      "Use structure, alternatives and questions when they serve this exchange. Let a complete contribution end.",
+      "Consider recent replies before continuing the same opening, development and ending out of habit. Vary naturally with the situation, without a rotation, quota or fixed phrase."
+    ]
+  }
+}

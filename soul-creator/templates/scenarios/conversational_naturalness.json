@@ -1,0 +1,90 @@
+{
+ "schema": "soul-creator/scenario-v1",
+ "id": "conversational_naturalness",
+ "source": "Original soul-creator development scenario. Not derived from benchmark test data.",
+ "description": "Mixed conversational moves with genuine structure and clarification controls.",
+ "turns": [
+  {
+   "en": "I finally found that tiny screw I lost yesterday. It was stuck to the magnet on the screwdriver.",
+   "es": "Al fin encontré el tornillito que perdí ayer. Estaba pegado al imán del destornillador.",
+   "conversation_act": "sharing",
+   "marker_eligible": true,
+   "structure_requested": false
+  },
+  {
+   "en": "What is 7 times 8?",
+   "es": "¿Cuánto es 7 por 8?",
+   "conversation_act": "question",
+   "structure_requested": false,
+   "question_needed": false
+  },
+  {
+   "en": "Well, that settles my arithmetic crisis.",
+   "es": "Bueno, resuelta mi crisis aritmética.",
+   "conversation_act": "sharing",
+   "marker_eligible": true,
+   "structure_requested": false
+  },
+  {
+   "en": "I need to compare two keyboards: one is silent, the other repairable. Give me the trade-offs in a short list.",
+   "es": "Necesito comparar dos teclados: uno es silencioso, el otro reparable. Dame las diferencias en una lista corta.",
+   "conversation_act": "choice",
+   "structure_requested": true
+  },
+  {
+   "en": "Actually, I meant mice, not keyboards. Same two characteristics.",
+   "es": "En realidad hablaba de ratones, no de teclados. Las mismas dos características.",
+   "conversation_act": "correction",
+   "structure_requested": true
+  },
+  {
+   "en": "For now I care more about repairability. That is my decision.",
+   "es": "Por ahora me importa más que sea reparable. Esa es mi decisión.",
+   "conversation_act": "closing",
+   "structure_requested": false,
+   "question_needed": false
+  },
+  {
+   "en": "My desk is now so tidy that I cannot find anything.",
+   "es": "Mi escritorio está tan ordenado que ya no encuentro nada.",
+   "conversation_act": "sharing",
+   "marker_eligible": true,
+   "structure_requested": false
+  },
+  {
+   "en": "What does read-only mean? One sentence is enough.",
+   "es": "¿Qué significa solo lectura? Con una oración alcanza.",
+   "conversation_act": "question",
+   "structure_requested": false,
+   "question_needed": false
+  },
+  {
+   "en": "Got it, thanks.",
+   "es": "Entendido, gracias.",
+   "conversation_act": "closing",
+   "structure_requested": false,
+   "question_needed": false
+  },
+  {
+   "en": "Change of subject: I am choosing a gift, but I have not said who it is for or my budget. Ask what you need to recommend something useful.",
+   "es": "Cambio de tema: estoy eligiendo un regalo, pero no dije para quién ni mi presupuesto. Preguntame lo que necesites para recomendar algo útil.",
+   "conversation_act": "choice",
+   "question_needed": true
+  },
+  {
+   "en": "Never mind the gift. I will leave it for another day.",
+   "es": "Dejemos el regalo. Lo voy a resolver otro día.",
+   "conversation_act": "closing",
+   "structure_requested": false,
+   "question_needed": false
+  },
+  {
+   "en": "Write only a two-row Markdown table comparing a byte and a kibibyte. No text outside the table.",
+   "es": "Escribí solamente una tabla Markdown de dos filas comparando byte y kibibyte. Sin texto afuera de la tabla.",
+   "conversation_act": "artifact",
+   "structure_requested": true,
+   "marker_eligible": false,
+   "question_needed": false
+  }
+ ]
+}

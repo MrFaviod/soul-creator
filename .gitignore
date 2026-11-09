@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+soul-test-out/
+*.jsonl
+.DS_Store

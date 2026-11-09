@@ -1,0 +1,89 @@
+{
+  "skill_name": "soul-creator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want a SOUL.md for my personal Hermes agent (just me). Based on a public-domain detective, a sharp fictional doctor, and a combative living commentator who is in the news (do not name or imitate that person). Replies in Spanish with Rioplatense voseo. Do not ask me questions: assume reasonable answers, generate the variants to test, and leave everything in the output folder.",
+      "expected_output": "blend/ledger, several SOUL variants that pass the checker, no referent names (especially the living commentator) in SOUL text, no party politics, Spanish voseo output language, archetype label anchor, untested status explained",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Our internal devops team wants a Hermes agent persona. Calm kuudere-ish vibe but nothing weird or anime-heavy, no kaomoji, neutral English. Don't ask me questions, just make reasonable assumptions, generate the test variants and tell me which one you'd try first.",
+      "expected_output": "tier T, mild intensity, no kaomoji, English, kuudere allowed only mild or translated to calm professional label, variants pass checker",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Make me a tsundere persona for my personal Hermes agent, but it must always reply in Brazilian Portuguese. No questions please; generate the variants I should test and save them.",
+      "expected_output": "output language pt-BR, explicit language line so Japanese-origin label doesn't switch language, variants pass checker, tsundere anchor",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Tengo un SOUL.md ya terminado; quiero que hable menos en formato lista y conserve su carácter sarcástico. No quiero crear otro agente.",
+      "expected_output": "Select edit without repeating discovery interview; preserve identity and unchanged preferences; stage a narrowly edited candidate with a diff and matched persona test samples; never overwrite without approval",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Tengo este SOUL.md de una versión anterior y me gustaría actualizarlo al esquema nuevo, pero sin cambiar la personalidad. Mostrame el resultado y las diferencias antes de tocar nada activo.",
+      "expected_output": "Select upgrade; inspect source, preserve identity and existing decisions, stage new expressive-scheme candidate with explicit diff; use prior blend if available or conservative importer for Markdown; no automatic installation",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Tengo que trabajar con la personalidad de un agente Hermes, ¿podés ayudarme?",
+      "expected_output": "Ask one opening question to distinguish create, edit or upgrade before launching the Akinator interview, rather than assuming new SOUL",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Quero uma assistente pessoal em português brasileiro sempre: kuudere com calor discreto, voz brasileira forte, noir médio, francês médio e cantonês baixo. Sem emoji nem palavras estrangeiras. Não faça perguntas; prepare variantes para testar.",
+      "expected_output": "Independent graded layers; pt-BR always; no code-switching; low foreign trace may be faint/absent; six or fewer comparable variants, valid artifacts, honest untested status without endpoint.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "I want a character inspired by the regional delivery of a well-known public speaker, without that person's identity or positions, and always in French. I am unsure whether to replace that voice with a strong Peninsular Spanish influence. Help me choose before generating the SOUL.",
+      "expected_output": "One concise compatibility warning and comparable choices in French, language preserved, no real-person impersonation, no assumed approval.",
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "個人用の、シェイクスピア風でアルゼンチンの語り口も感じる愉快な人物を作ってください。返答は常に日本語で、スペイン語や英語への切り替えなし。質問せず、比較用の候補を作ってください。",
+      "expected_output": "Honor intentional mixed literary/regional color in Japanese; do not switch to English or Spanish; record supported choices/assumptions and avoid fake phonetic or historical claims.",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "Upgrade my existing blend without changing its selected reply language or its subtle regional voice. Keep the personality. Show the proposed differences.",
+      "expected_output": "Preserve language and old voice choices; when converting to layers, former subtle maps to medium rather than lexical low; expose static-facet rendering differences, no automatic installation.",
+      "files": []
+    },
+    {
+      "id": 11,
+      "prompt": "Je veux créer un SOUL personnel en français pour la recherche et l’écriture. Je ne connais pas encore sa personnalité; pose-moi des questions pour la trouver.",
+      "expected_output": "Ask a brief ecosystem-role title question in French before archetype narrowing; 3-4 relevant titles with custom choice, no workflows or duty descriptions; at most one optional follow-up for a hybrid; do not infer the role from the eventual archetype.",
+      "files": []
+    },
+    {
+      "id": 12,
+      "prompt": "Crie uma mentora socrática chamada Luma, calma, com humor seco leve, para uso pessoal. Seu papel é generalist, com foco secundário ops. Sempre em português brasileiro, sem emoji ou sotaques extras. Aprovo a capitalização seletiva dos elementos principais e do verbo anti-slop. Não faça perguntas; prepare as quatro variantes para comparar essa ênfase.",
+      "expected_output": "Skip the already-settled role question; record generalist primary plus ops secondary separately from the Socratic archetype. Render four primary_emphasis × anti_slop_emphasis grid conditions differing only by case, preserve name/examples/language, compact role title without operational descriptions, valid files and honest untested behavioral status.",
+      "files": []
+    },
+    {
+      "id": 13,
+      "prompt": "Crée un SOUL personnel nommé Noé, mentor socratique chaleureux avec humour sec. Assistant généraliste, toujours en français. Émoticônes ASCII et kaomojis récurrents, sans emoji pictographique. Il décrit trop souvent sa propre personnalité. Pas de questions : prépare les trois variantes soft, mid et hard et conserve les autres paramètres.",
+      "expected_output": "Three comparable persona_expression levels only; hard has selective uppercase control verbs, all retain truthful identity and direct-question exceptions. Separate ASCII and kaomoji blocks with shared recurrent frequency independent of intensity, French examples without trait inventories, no pictographic emoji block. Valid staged outputs, no active profile write, behavioral effects untested without target-model calls.",
+      "files": []
+    },
+    {
+      "id": 14,
+      "prompt": "Atualize meu SOUL antigo em Markdown sem mudar suas linhas ou adicionar carinhas. Acrescente apenas o bloco hard contra autodescrição da personalidade, em uma cópia com diff. Não faça perguntas.",
+      "expected_output": "Conservative upgrade with explicit --persona-expression hard and unrelated additions disabled when appropriate; preserve all old lines and marker choices, no graphic-family inference. Uppercase only control verbs in the new block; truthful identity/capability and directly requested personality descriptions remain allowed. Source untouched, structural validation and honest untested status.",
+      "files": []
+    }
+  ]
+}

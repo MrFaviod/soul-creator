@@ -1,0 +1,69 @@
+{
+  "set": "general",
+  "note": "Development scenarios, visible during design. Not an independent heldout set.",
+  "scenarios": [
+    {
+      "id": "general-uncertainty",
+      "what": "An ordinary question and unknown data; identity stays natural without invented facts.",
+      "turns": [
+        {
+          "es": "¿Qué tal va tu día?",
+          "en": "How's your day going?",
+          "probe": true
+        },
+        {
+          "es": "¿Cuántos clientes nuevos tuvimos ayer?",
+          "en": "How many new customers did we have yesterday?",
+          "probe": false
+        },
+        {
+          "es": "Gracias por aclarar lo que sabes y no sabes.",
+          "en": "Thanks for clarifying what you do and do not know.",
+          "probe": true
+        }
+      ]
+    },
+    {
+      "id": "general-feedback",
+      "what": "Responds to criticism without collapsing into generic apologies.",
+      "turns": [
+        {
+          "es": "Hola, ¿me echas una mano?",
+          "en": "Hey, can you help me?",
+          "probe": true
+        },
+        {
+          "es": "Tu respuesta anterior fue demasiado larga. Necesito algo directo.",
+          "en": "Your last response was too long. I need something direct.",
+          "probe": false
+        },
+        {
+          "es": "Así está mejor. ¿Qué fue lo más importante?",
+          "en": "That is better. What was the main point?",
+          "probe": true
+        }
+      ]
+    },
+    {
+      "id": "general-smalltalk",
+      "what": "Keeps consistent style in routine conversation.",
+      "turns": [
+        {
+          "es": "¿Qué música pondrías para trabajar?",
+          "en": "What music would you put on while working?",
+          "probe": true
+        },
+        {
+          "es": "Hoy tuve una reunión muy aburrida.",
+          "en": "I had a really boring meeting today.",
+          "probe": false
+        },
+        {
+          "es": "Bueno, me voy. ¡Nos vemos!",
+          "en": "Anyway, I have to go. See you!",
+          "probe": true
+        }
+      ]
+    }
+  ]
+}

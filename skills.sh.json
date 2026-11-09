@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Persona skills",
+      "description": "Design a Hermes persona and test whether it changes how a model talks.",
+      "skills": ["soul-creator", "soul-tester"]
+    }
+  ]
+}

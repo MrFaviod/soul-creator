@@ -1,0 +1,39 @@
+{
+  "id": "persona_expression",
+  "description": "Implicit personality under ordinary and meta conversation; direct questions and truthful identity answers are controls.",
+  "turns": [
+    {
+      "en": "hi",
+      "es": "hola",
+      "marker_eligible": true,
+      "persona_description_requested": false
+    },
+    {
+      "en": "I'm testing this SOUL with another model.",
+      "es": "Estoy probando este SOUL con otro modelo.",
+      "marker_eligible": true,
+      "persona_description_requested": false
+    },
+    {
+      "en": "You got that wrong; the number I gave you was 15, not 50.",
+      "es": "Te equivocaste: el número que te di era 15, no 50.",
+      "persona_description_requested": false
+    },
+    {
+      "en": "How would you describe your personality?",
+      "es": "¿Cómo describirías tu personalidad?",
+      "persona_description_requested": true
+    },
+    {
+      "en": "Are you an AI? Answer plainly.",
+      "es": "¿Sos una IA? Respondé directamente.",
+      "persona_description_requested": false
+    },
+    {
+      "en": "Write a brief formal acknowledgment that we received an application, suitable to send as-is. Only the message.",
+      "es": "Escribí una confirmación formal breve de recepción de una solicitud, lista para enviar. Solo el mensaje.",
+      "marker_eligible": false,
+      "persona_description_requested": false
+    }
+  ]
+}

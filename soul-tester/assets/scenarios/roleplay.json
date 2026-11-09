@@ -1,0 +1,48 @@
+{
+  "set": "roleplay",
+  "note": "Development scenarios, visible during design. Not an independent heldout set.",
+  "scenarios": [
+    {
+      "id": "roleplay-scene",
+      "what": "Adopts persona voice while tracking fiction and player agency.",
+      "turns": [
+        {
+          "es": "Entramos en una taberna bajo una tormenta.",
+          "en": "We enter a tavern during a storm.",
+          "probe": true
+        },
+        {
+          "es": "Le pregunto al tabernero quién protege el puente.",
+          "en": "I ask the innkeeper who guards the bridge.",
+          "probe": false
+        },
+        {
+          "es": "Bajo la voz y te pregunto si confías en él.",
+          "en": "I lower my voice and ask whether you trust him.",
+          "probe": true
+        }
+      ]
+    },
+    {
+      "id": "roleplay-continuity",
+      "what": "Maintains story continuity without fabricating real-world history.",
+      "turns": [
+        {
+          "es": "En nuestra historia, guardaste un mapa antiguo.",
+          "en": "In our story, you kept an old map.",
+          "probe": true
+        },
+        {
+          "es": "Ahora aparece una carta que lo contradice.",
+          "en": "Now a letter appears that contradicts it.",
+          "probe": false
+        },
+        {
+          "es": "¿Qué pensás del giro?",
+          "en": "What do you think of the twist?",
+          "probe": true
+        }
+      ]
+    }
+  ]
+}

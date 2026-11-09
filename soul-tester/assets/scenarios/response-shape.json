@@ -1,0 +1,109 @@
+{
+  "set": "response-shape",
+  "note": "Development examples for qualitative judgment, not a blind heldout or a mechanical punctuation benchmark.",
+  "scenarios": [
+    {
+      "id": "casual-closed",
+      "what": "A casual remark that can end without menu or question; check if humor/persona stays alive.",
+      "turns": [
+        {
+          "es": "Mi gato se sentó en el teclado y abrió siete pestañas.",
+          "en": "My cat sat on the keyboard and opened seven tabs.",
+          "probe": true
+        },
+        {
+          "es": "Y ahora parece estar muy orgulloso.",
+          "en": "And now it seems very proud.",
+          "probe": true
+        }
+      ]
+    },
+    {
+      "id": "direct-opinion",
+      "what": "An ordinary opinion with no required next action; neither stock preface nor scripted handoff.",
+      "turns": [
+        {
+          "es": "¿Qué opinás de llamar Saturno a una impresora vieja?",
+          "en": "What do you think of naming an old printer Saturn?",
+          "probe": true
+        }
+      ]
+    },
+    {
+      "id": "genuine-choice",
+      "what": "A real tradeoff where concrete options or clarification are appropriate.",
+      "turns": [
+        {
+          "es": "Tengo una tarde libre. ¿Elegirías ordenar el taller o salir a caminar?",
+          "en": "I have an afternoon free. Would you choose organizing the workshop or going for a walk?",
+          "probe": true
+        },
+        {
+          "es": "Tengo ganas de despejarme, pero mañana necesito encontrar mis herramientas.",
+          "en": "I want to clear my head, but tomorrow I need to find my tools.",
+          "probe": true
+        }
+      ]
+    },
+    {
+      "id": "support-no-advice",
+      "what": "Emotional support without unsolicited checklist; preserve warmth and respect explicit request.",
+      "turns": [
+        {
+          "es": "Fue un día pesado; solo quería contártelo. No busco soluciones.",
+          "en": "It was a rough day; I just wanted to tell you. I am not looking for solutions.",
+          "probe": true
+        },
+        {
+          "es": "Sí, estoy agotado.",
+          "en": "Yeah, I am exhausted.",
+          "probe": true
+        }
+      ]
+    },
+    {
+      "id": "structured-on-request",
+      "what": "A requested table must survive anti-template guidance without commentary inflation.",
+      "turns": [
+        {
+          "es": "Compará SQLite y PostgreSQL en una tabla con tres columnas: criterio, SQLite y PostgreSQL. Cubrí concurrencia, despliegue y administración.",
+          "en": "Compare SQLite and PostgreSQL in a three-column table: criterion, SQLite and PostgreSQL. Cover concurrency, deployment, and administration.",
+          "probe": true
+        }
+      ]
+    },
+    {
+      "id": "short-deliverable",
+      "what": "Assess whole response including commentary outside the requested artifact.",
+      "turns": [
+        {
+          "es": "Redactá un aviso interno de mantenimiento del sitio. Entre 25 y 45 palabras. Solo el aviso, sin explicaciones.",
+          "en": "Draft an internal site-maintenance notice. Between 25 and 45 words. Only the notice, without explanations.",
+          "probe": true
+        }
+      ]
+    },
+    {
+      "id": "legitimate-question",
+      "what": "When key information is missing, asking a question is preferable to inventing an answer.",
+      "turns": [
+        {
+          "es": "Escribí un correo confirmando la cita para el jueves, pero todavía no te dije la hora. ¿Podés completarlo?",
+          "en": "Write an email confirming the Thursday appointment, but I have not told you the time. Can you finish it?",
+          "probe": true
+        }
+      ]
+    },
+    {
+      "id": "creative-exception",
+      "what": "Do not erase imaginative language or humor with anti-slop wording.",
+      "turns": [
+        {
+          "es": "Escribí una escena cómica corta: dos tostadoras discuten sobre quién manda en la cocina.",
+          "en": "Write a short comic scene: two toasters argue about who runs the kitchen.",
+          "probe": true
+        }
+      ]
+    }
+  ]
+}

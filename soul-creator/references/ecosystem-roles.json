@@ -1,0 +1,206 @@
+{
+  "schema": "soul-creator/ecosystem-roles-v1",
+  "note": "Curated short identity labels, not a standardized taxonomy, capability claims, operational instructions or language defaults. Translate interview labels to the user language. Custom short titles remain available.",
+  "sources": [
+    "https://www.anthropic.com/engineering/building-effective-agents",
+    "https://adk.dev/workflows/",
+    "https://learn.microsoft.com/en-us/training/paths/empower-workforce-copilot-use-cases/"
+  ],
+  "entries": [
+    {
+      "id": "assistant",
+      "label": "assistant",
+      "category": "general"
+    },
+    {
+      "id": "generalist",
+      "label": "generalist assistant",
+      "category": "general"
+    },
+    {
+      "id": "personal_assistant",
+      "label": "personal assistant",
+      "category": "general"
+    },
+    {
+      "id": "executive_assistant",
+      "label": "executive assistant",
+      "category": "general"
+    },
+    {
+      "id": "companion",
+      "label": "companion",
+      "category": "general"
+    },
+    {
+      "id": "chatbot",
+      "label": "chatbot",
+      "category": "general"
+    },
+    {
+      "id": "coordinator",
+      "label": "coordinator",
+      "category": "collaboration"
+    },
+    {
+      "id": "orchestrator",
+      "label": "orchestrator",
+      "category": "collaboration"
+    },
+    {
+      "id": "router",
+      "label": "router",
+      "category": "collaboration"
+    },
+    {
+      "id": "planner",
+      "label": "planner",
+      "category": "collaboration"
+    },
+    {
+      "id": "worker",
+      "label": "worker",
+      "category": "collaboration"
+    },
+    {
+      "id": "specialist",
+      "label": "specialist",
+      "category": "collaboration"
+    },
+    {
+      "id": "advisor",
+      "label": "advisor",
+      "category": "collaboration"
+    },
+    {
+      "id": "reviewer",
+      "label": "reviewer",
+      "category": "collaboration"
+    },
+    {
+      "id": "evaluator",
+      "label": "evaluator",
+      "category": "collaboration"
+    },
+    {
+      "id": "coding",
+      "label": "coding assistant",
+      "category": "technical"
+    },
+    {
+      "id": "ops",
+      "label": "ops assistant",
+      "category": "technical"
+    },
+    {
+      "id": "devops",
+      "label": "DevOps assistant",
+      "category": "technical"
+    },
+    {
+      "id": "it_support",
+      "label": "IT support assistant",
+      "category": "technical"
+    },
+    {
+      "id": "computer_use",
+      "label": "computer-use assistant",
+      "category": "technical"
+    },
+    {
+      "id": "security",
+      "label": "security assistant",
+      "category": "technical"
+    },
+    {
+      "id": "monitor",
+      "label": "monitor",
+      "category": "technical"
+    },
+    {
+      "id": "researcher",
+      "label": "research assistant",
+      "category": "knowledge_creative"
+    },
+    {
+      "id": "analyst",
+      "label": "analyst",
+      "category": "knowledge_creative"
+    },
+    {
+      "id": "knowledge_assistant",
+      "label": "knowledge assistant",
+      "category": "knowledge_creative"
+    },
+    {
+      "id": "librarian",
+      "label": "librarian",
+      "category": "knowledge_creative"
+    },
+    {
+      "id": "tutor",
+      "label": "tutor",
+      "category": "knowledge_creative"
+    },
+    {
+      "id": "coach",
+      "label": "coach",
+      "category": "knowledge_creative"
+    },
+    {
+      "id": "writer",
+      "label": "writer",
+      "category": "knowledge_creative"
+    },
+    {
+      "id": "editor",
+      "label": "editor",
+      "category": "knowledge_creative"
+    },
+    {
+      "id": "translator",
+      "label": "translator",
+      "category": "knowledge_creative"
+    },
+    {
+      "id": "business_bot",
+      "label": "business bot",
+      "category": "business"
+    },
+    {
+      "id": "customer_support",
+      "label": "customer support assistant",
+      "category": "business"
+    },
+    {
+      "id": "sales",
+      "label": "sales assistant",
+      "category": "business"
+    },
+    {
+      "id": "hr",
+      "label": "HR assistant",
+      "category": "business"
+    },
+    {
+      "id": "finance",
+      "label": "finance assistant",
+      "category": "business"
+    },
+    {
+      "id": "marketing",
+      "label": "marketing assistant",
+      "category": "business"
+    },
+    {
+      "id": "back_office",
+      "label": "back-office assistant",
+      "category": "business"
+    },
+    {
+      "id": "concierge",
+      "label": "concierge",
+      "category": "business"
+    }
+  ]
+}

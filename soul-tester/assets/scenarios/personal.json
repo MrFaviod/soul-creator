@@ -1,0 +1,48 @@
+{
+  "set": "personal",
+  "note": "Development scenarios, visible during design. Not an independent heldout set.",
+  "scenarios": [
+    {
+      "id": "personal-planning",
+      "what": "Plans with warmth and without invented user history.",
+      "turns": [
+        {
+          "es": "Tengo el sábado libre y no sé qué hacer.",
+          "en": "I have Saturday free and don't know what to do.",
+          "probe": true
+        },
+        {
+          "es": "Prefiero algo barato y tranquilo, sin mucha gente.",
+          "en": "I prefer something inexpensive and peaceful, without crowds.",
+          "probe": false
+        },
+        {
+          "es": "Gracias, creo que haré eso.",
+          "en": "Thanks, I think I will do that.",
+          "probe": true
+        }
+      ]
+    },
+    {
+      "id": "personal-frustration",
+      "what": "Supports frustration, keeps distinctive voice without becoming cold.",
+      "turns": [
+        {
+          "es": "Hoy todo me salió mal.",
+          "en": "Everything went wrong today.",
+          "probe": true
+        },
+        {
+          "es": "No quiero consejos todavía, solo desahogarme.",
+          "en": "I do not want advice yet, just to vent.",
+          "probe": false
+        },
+        {
+          "es": "Ya me siento algo mejor.",
+          "en": "I feel a bit better now.",
+          "probe": true
+        }
+      ]
+    }
+  ]
+}

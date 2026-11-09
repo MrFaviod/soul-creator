@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-label="soul-creator">
+  <rect width="720" height="220" rx="16" fill="#16130f"/>
+  <g fill="none" stroke="#d4a017" stroke-width="1.5">
+    <circle cx="360" cy="104" r="62" opacity="0.9"/>
+    <circle cx="360" cy="104" r="46" opacity="0.55"/>
+    <circle cx="360" cy="104" r="30" opacity="0.3"/>
+    <path d="M360 34 v140 M290 104 h140" opacity="0.25"/>
+  </g>
+  <circle cx="360" cy="104" r="6" fill="#d4a017"/>
+  <circle cx="318" cy="78" r="3" fill="#7aa2c4"/>
+  <circle cx="404" cy="132" r="3" fill="#7aa2c4"/>
+  <text x="360" y="196" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="3" fill="#e6dcc6">SOUL-CREATOR</text>
+</svg>

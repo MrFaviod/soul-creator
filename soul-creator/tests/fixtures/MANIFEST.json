@@ -1,0 +1,5649 @@
+{
+ "schema": "soul-creator-catalog/audit-2",
+ "counts_by_layer": {
+  "roles": 396,
+  "temperaments": 196,
+  "tastes": 226,
+  "voices": 318,
+  "appearance": 117,
+  "interview": 78,
+  "referents": 56,
+  "mechanics": 2
+ },
+ "original_entry_coverage": {
+  "atlas-roles": 212,
+  "atlas-temperaments": 128,
+  "atlas-tastes": 128,
+  "atlas-voices": 100,
+  "atlas-misc": 166,
+  "hersona-role": 66,
+  "hersona-personality": 41,
+  "hersona-hobby": 51,
+  "hersona-speech-tones": 14,
+  "hersona-speech-english": 15,
+  "hersona-speech-foreign": 20,
+  "hersona-speech-jp": 41,
+  "hersona-speech-roles": 50,
+  "hersona-visual": 46,
+  "western": 47,
+  "curated-aliases": 9,
+  "curated-new": 255
+ },
+ "original_name_mappings": {
+  "atlas-roles": [
+   {
+    "name": "Mentor veterano",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Tutor socrático",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Profesor excéntrico",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Bibliotecario erudito",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Archivista obsesivo",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Cronista viajero",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Consejero de confianza",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Mayordomo clásico",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Concierge de hotel",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Médico rural",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Botánico de campo",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Guardián de faro",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Compañero de taller",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Tutor de gremio",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Abuela narradora",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Cocinero de fonda",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Entrenador paciente",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Mediador vecinal",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Detective clásico",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Detective hardboiled",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Periodista sabueso",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Criptógrafo",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Arqueólogo aventurero",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Cartógrafo explorador",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Alquimista renacentista",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Astrónomo de observatorio",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Filósofo ambulante",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Naturalista decimonónico",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Académico de gabinete",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Inventor de garaje",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Científico de laboratorio",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Matemático ascético",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Historiador revisionista",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Perito forense",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Estratega de ajedrez",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Curador de museo",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Sysadmin veterano",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Ingeniero de guardia",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "SRE de incidentes",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Revisor de código",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Arquitecto de software",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Técnico de radio",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Mecánico de barrio",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Relojero artesanal",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Herrero de aldea",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Carpintero meticuloso",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Marinero mercante",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Capataz justo",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Operador de planta",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Electricista de campo",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Impresor tipográfico",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Restaurador de antigüedades",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Piloto de pruebas",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Artesano inventor",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Director de operaciones",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Consultor estratégico",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Auditor incómodo",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Asistente ejecutivo",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Diplomático corporativo",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Abogado de oficio",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Comerciante veneciano",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Mercader de bazar",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Vendedor de feria",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Tabernero confidente",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Posadero observador",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Jefe de expedición",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Gestor de crisis",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Reclutador curioso",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Editor exigente",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Presentador de radio",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Community manager veterano",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Banquero prudente",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Sabio-bufón",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Bufón de corte",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Gracioso del Siglo de Oro",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Arlecchino",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Brighella",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Il Dottore",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Il Capitano",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Pantalone",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Colombina",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Pulcinella",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Pierrot",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Scaramouche",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "El figurón",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "El boke",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "El tsukkomi",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "El cuñao",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "El pícaro",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "El impostor simpático",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Hidalgo quijotesco",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Caballero andante",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Escudero terrenal",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Lobo de mar",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Capitán corsario",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Navegante polinesio",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Explorador polar",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Ronin viajero",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Samurái de la corte",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Legionario veterano",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Senador romano",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Mercenario honorable",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Diplomático renacentista",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Trovador errante",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Juglar de plaza",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Monje copista",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Almirante de flota",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Pistolero retirado",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Paladín errante",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Paladín caído",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Archimago de torre",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Bruja del bosque",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Oráculo ambiguo",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Dragón erudito",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Bardo de taberna",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Nigromante académico",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Druida guardabosques",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Cazador de monstruos",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Caballero espectral",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Hada madrina",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Genio de los deseos",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Goblin inventor",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Enano herrero",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Elfo cronista",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Guardabosques solitario",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Ladrón honrado",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Netrunner clandestino",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Vaquero espacial",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Capitán de carguero",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "IA mayordomo",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Androide aprendiz",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Replicante reflexivo",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Chatarrero orbital",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Mecánico de colonia",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Diplomático interestelar",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Explorador de anomalías",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Archivista posapocalíptico",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Médico de nave",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Fixer cyberpunk",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Piloto contrabandista",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Gobernador de colonia",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Robot jardinero",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Antropólogo alienígena",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Ingeniero de terraformación",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Gaucho payador",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Gaucho matrero",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Viejo de pulpería",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Compadrito porteño",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Pícaro castellano",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Hidalgo venido a menos",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Sereno de pueblo",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Arriero andino",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Artesano de feria",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Consejera de barrio",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Tía de sobremesa",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Taxista filósofo",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Locutor de radio local",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Vendedor ambulante ingenioso",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Maestro rural",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Curandera de cuento",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Estanciero de novela",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Cronista de pueblo",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Griot de África occidental",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Anansi narrativo",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Nasreddin narrativo",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Baba Yaga narrativa",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Pedro Malasartes",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "João Grilo",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Pedro Urdemales",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Cantador nordestino",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Malandro de ficción",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Skald escandinavo",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Derviche de cuento",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Xia itinerante",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Maestro de kung-fu errante",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Vidushaka",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Chou operístico",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Narrador de rakugo",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Chamán de fantasía",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Guardiana de historias",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Sensei imprevisible",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Senpai protector",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Kouhai aplicada",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Idol perseverante",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Villainess aristocrática",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Héroe shōnen",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Detective de anime",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Rival de torneo",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Magical girl",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Maestro de gremio RPG",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "NPC tabernero",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Speedrunner veterano",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "VTuber de comunidad",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Streamer técnico",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Game master",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Archivista de fandom",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Vecino manitas",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Amigo de infancia",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Hermana mayor protectora",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Hermano menor curioso",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Madre organizadora",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Abuelo contador de historias",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Compañero de residencia",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Amigo de cafetería",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Coleccionista de barrio",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Clubista entusiasta",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Voluntaria veterana",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Anfitrión hospitalario",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Jardinero contemplativo",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Apicultor paciente",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Mecenas excéntrico",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Guía turístico local",
+    "path": "roles/social-domestic.md"
+   }
+  ],
+  "atlas-temperaments": [
+   {
+    "name": "tsundere",
+    "path": "temperaments/anime-dere.md",
+    "original_name": "Tsundere",
+    "merged_into_canonical": true
+   },
+   {
+    "name": "kuudere",
+    "path": "temperaments/anime-dere.md",
+    "original_name": "Kuudere",
+    "merged_into_canonical": true
+   },
+   {
+    "name": "dandere",
+    "path": "temperaments/anime-dere.md",
+    "original_name": "Dandere",
+    "merged_into_canonical": true
+   },
+   {
+    "name": "deredere",
+    "path": "temperaments/anime-dere.md",
+    "original_name": "Deredere",
+    "merged_into_canonical": true
+   },
+   {
+    "name": "hinedere",
+    "path": "temperaments/anime-dere.md",
+    "original_name": "Hinedere",
+    "merged_into_canonical": true
+   },
+   {
+    "name": "Protector silencioso",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Afectuoso torpe",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Cálido reservado",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Cariñoso bromista",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Romántico idealista",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Empático intenso",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Independiente cariñoso",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Leal hasta el final",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Afecto paternal",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Afecto fraternal",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Hospitalario",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Estoico",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Imperturbable",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Volcánico",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Temperamental",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Paciente infinito",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Impulsivo entusiasta",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Cascarrabias",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Resentido cómico",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Melancólico",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Optimista incorregible",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Pesimista prevenido",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Ansioso anticipatorio",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Sereno protector",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Flemático",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Apasionado",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Resiliente",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Extrovertido jovial",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Introvertido observador",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Solitario autosuficiente",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Anfitrión magnético",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Sarcástico distante",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Confiado ingenuo",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Desconfiado profesional",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Diplomático",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Competitivo juguetón",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Complaciente",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Contestatario",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Burlón afectuoso",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Sociable camaleónico",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Orgulloso solitario",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Curioso indiscreto",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Modesto encantador",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Pragmático",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Perfeccionista",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Metódico",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Caótico creativo",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Analítico",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Intuitivo",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Socrático",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Escéptico",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Idealista",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Realista desengañado",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Curioso insaciable",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Decidido",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Cauteloso",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Improvisador",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Obsesivo del detalle",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Visionario",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Honorable",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Rebelde principista",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Leal selectivo",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Justiciero",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Moralista exigente",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Relativista diplomático",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Maquiavélico de ficción",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Orgulloso aristocrático",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Humilde competente",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Protector posesivo",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Pacifista firme",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Liberal individualista",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Colectivista solidario",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Ambicioso transparente",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Culpable redentor",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Anti-autoritario",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Cínico de corazón blando",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Gruñón servicial",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Genio despistado",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Valiente tímido",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Arrogante inseguro",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Mentiroso demasiado sincero",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Inocente perspicaz",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Pesimista esperanzado",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Elegante vulgar",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Frío protector",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Desordenado meticuloso",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Rebelde disciplinado",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Erudito callejero",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Burlón vulnerable",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Autoritario afectuoso",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Tramposo honorable",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "genki",
+    "path": "temperaments/reactivity-energy.md",
+    "original_name": "Genki",
+    "merged_into_canonical": true
+   },
+   {
+    "name": "Chuunibyou",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Himedere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Kamidere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Yandere de ficción",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Ojou-sama orgullosa",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Bokukko",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Yankii leal",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Dojikko",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "airhead",
+    "path": "temperaments/cognition-decisions.md",
+    "original_name": "Airhead",
+    "merged_into_canonical": true
+   },
+   {
+    "name": "Onee-san protectora",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Nemuidere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Mayadere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Sadodere de ficción",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Hajidere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Undere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Deadpan",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Sassy",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Teatral",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Fanfarrón",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Cuñao",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Pedante",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Bromista travieso",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Abogado del diablo",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Bocazas",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Ironista elegante",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Autocrítico cómico",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Entusiasta contagioso",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Implacable gracioso",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Inocente absurdo",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Exasperado competente",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Sabio irreverente",
+    "path": "temperaments/humor-attitude.md"
+   }
+  ],
+  "atlas-tastes": [
+   {
+    "name": "Café de especialidad",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Té ceremonial",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Vinilos antiguos",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Literatura de viajes",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Poesía clásica",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Novela detectivesca",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Ópera barroca",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Cine de serie B",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Anime retro",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Cosplay artesanal",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Fotografía analógica",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Caligrafía",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Miniaturas de fantasía",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Juegos de mesa",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Museos pequeños",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Folclore oral",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Linux y software libre",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Hardware retro",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Radioafición",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Astronomía aficionada",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Criptografía recreativa",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Redes y protocolos",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Emulación",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Robótica casera",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Mecánica relojera",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Cartografía histórica",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Meteorología",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Botánica urbana",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Microscopía casera",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Modelado 3D",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Ferrocarriles",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Rompecabezas lógicos",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Amasar pan",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Jardinería",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Cocina picante",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Comida callejera",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Caminatas largas",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Días lluviosos",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Gatos dormilones",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Perros callejeros",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Escritorios ordenados",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Mercados de pulgas",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Libretas de bolsillo",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Relojes mecánicos",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Ajedrez de cafetería",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Acampar",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Bicicleta urbana",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Ferias nocturnas",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Reuniones inútiles",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Jergas vacías",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Publicidad invasiva",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Soluciones mágicas",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Código sin pruebas",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Sistemas cerrados",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Promesas de vendedores",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Autoridad sin argumentos",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Improvisación insegura",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Desperdicio de comida",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Ruido innecesario",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Exceso de formalidades",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Cinismo gratuito",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Estadísticas sin contexto",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Herramientas de moda",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Spoilers",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Defiende a principiantes",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Cree en reparar antes de comprar",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Valora la palabra dada",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Admira la curiosidad",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Protege la privacidad",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Defiende la accesibilidad",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Prioriza la honestidad",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Ama el conocimiento abierto",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Cree en segundas oportunidades",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Respeta los oficios",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Cuida recursos comunes",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Detesta el abuso de poder",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Defiende decisiones reversibles",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Celebra la paciencia",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Valora el humor sano",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Protege a sus compañeros",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Cuenta escalones mentalmente",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Nombra sus dispositivos",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Cataloga tazas",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Cierra con un refrán",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Anota hipótesis en servilletas",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Da nombres a bugs",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Ordena lápices por desgaste",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Colecciona palabras extrañas",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Cuenta historias de faros",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Brinda con té",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Mide todo con comparaciones culinarias",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Revisa dos veces una cifra",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Guarda tickets viejos",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Usa mapas imaginarios",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Tiene un cuaderno de frases",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Se emociona con diagramas limpios",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Odia los cables enredados",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Quiere catalogar el mundo",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Persigue la solución elegante",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Nunca abandona un misterio",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Sueña con un barco propio",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Quiere dominar su oficio",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Busca una receta perfecta",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Admira máquinas silenciosas",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Conserva cartas escritas a mano",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Desea enseñar algo útil cada día",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Defiende herramientas duraderas",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Quiere construir su biblioteca",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Sueña con visitar observatorios",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Detesta los informes decorativos",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Colecciona errores instructivos",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Encuentra poesía en la rutina",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Adora hablar, detesta llamadas",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Ama el orden, tiene escritorio caótico",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Critica videojuegos, conoce todos",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Dice odiar drama, sabe todos los chismes",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Presume de dureza, alimenta gatos",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Detesta cumplidos, los recuerda años",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Predica minimalismo, colecciona teclados",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "No cree en la suerte, usa amuleto",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Protesta por enseñar, da explicaciones magistrales",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Se dice solitario, organiza encuentros",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Odia madrugar, ama ver amaneceres",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Exige rigor, adora fantasía absurda",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Critica tendencias, prueba todas",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Es frío con personas, cálido con plantas",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Evita competir, guarda récords",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Bromea de su nostalgia, guarda recuerdos",
+    "path": "tastes/contrasts.md"
+   }
+  ],
+  "atlas-voices": [
+   {
+    "name": "Formal ceremonial",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Formal sobrio",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Neutral natural",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Casual cercano",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Coloquial irreverente",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Tuteo franco",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Voseo rioplatense",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Ustedeo cortés",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Mayordomo británico textual",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Habla académica",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Habla de taller",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Registro ejecutivo",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Lacónico",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Telegráfico",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Conversador",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Verborreico deliberado",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Frases cortas y punzantes",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Cadencia pausada",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Ráfagas de entusiasmo",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Prosa elegante",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Preguntas encadenadas",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Narrador anecdótico",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Discurso episódico",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Cambio de ritmo dramático",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Socrático",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Dialéctico",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Mayéutico",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Aforístico",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Metafórico",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Marinero proverbial",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Narrador de parábolas",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Didáctico progresivo",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Contraejemplos",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Irónico por contraste",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Retórico de plaza",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Legalista estructurado",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Humor seco",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Sarcasmo suave",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Humor absurdo",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Humor autocrítico",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Humor de observación",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Humor costumbrista",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Juegos de palabras",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Humor de cuñao",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Banter de compañeros",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Humor negro contextual",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Slapstick verbal",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Anti-chiste",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Español paraguayo urbano",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español paraguayo rural",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Jopara contextual",
+    "path": "voices/spanish-regions.md",
+    "original_name": "Jopará contextual",
+    "merged_into_canonical": true
+   },
+   {
+    "name": "Español rioplatense urbano",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español argentino interior",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español uruguayo",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español mexicano urbano",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español norteño mexicano",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español colombiano rolo",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español paisa",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español chileno coloquial",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español peruano limeño",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español caribeño",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español andaluz textual",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español canario",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español castellano",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Portugués brasileño coloquial",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Portugués brasileño formal",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Inglés británico cortés",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Inglés australiano coloquial",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Inglés sureño de EE. UU.",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Inglés neoyorquino",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Japonés keigo",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Japonés kansai-ben",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Japonés informal",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Coreano banmal",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Coreano jondaetmal",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Mandarín coloquial",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Caballeresco clásico",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Crónica medieval",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Barroco teatral",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Victorianamente formal",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Noir detectivesco",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Pulp aventurero",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Western lacónico",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Cyberpunk técnico",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Solarpunk esperanzado",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Alta fantasía épica",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Comedia sitcom",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Falso documental",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Compañero de pair programming",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Consultor contundente",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Entrevistador curioso",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Entrenador exigente",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Camarada de expedición",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Asistente invisible",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Presentador entusiasta",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Editor severo",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Diagnóstico por descarte",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Explicador visual",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Banter amistoso",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Storyteller inmersivo",
+    "path": "voices/interaction-format.md"
+   }
+  ],
+  "atlas-misc": [
+   {
+    "name": "Figura menuda",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Alta y espigada",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Constitución robusta",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Atlética",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Andrógina",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Anciana sabia",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Juvenil",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Elegante austera",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Desaliñada entrañable",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Imponente ceremonial",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Cabello plateado",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Cabello rizado",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Trenzas elaboradas",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Coleta alta",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Flequillo recto",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Cabello despeinado",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Canas visibles",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Pecas",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Cicatriz de aventura",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Monóculo",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Traje de tres piezas",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Abrigo de detective",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Uniforme de capitán",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Túnica de archimago",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Overol de taller",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Chaqueta de cuero gastada",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Ropa victoriana",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Prendas solarpunk",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Kimono ceremonial",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Poncho de viajero",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Reloj de bolsillo",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Cuaderno lleno de notas",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Anteojos redondos",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Pipa decorativa sin tabaco",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Brújula vieja",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Llave inglesa",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Bastón tallado",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Bolso de cuero",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Sombrero de ala ancha",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Broche de gremio",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Sepia de biblioteca",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Neón cyberpunk",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Cobre steampunk",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Pastel acogedor",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Blanco clínico",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Bosque encantado",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Azul marino clásico",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Negro noir",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Dorado palaciego",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Tierra rural",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Asistente personal privado",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Compañero de estudio",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Tutor académico",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Compañero de programación",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Agente DevOps",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Agente investigador",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Agente de QA",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Asistente de dirección",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Soporte TI interno",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Soporte a clientes",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Chatbot de ventas",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Embajador de marca",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Recepcionista digital",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Guía turístico virtual",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Moderador de comunidad",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Narrador de rol",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Personaje de compañía",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Mascota institucional",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Agente de formación",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Analista de incidentes",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Colega de igual a igual",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Mentor aprendiz",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Aprendiz curioso",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Mayordomo y cliente",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Viejos amigos",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Compañero de expedición",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Asesor de confianza",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Rival amistoso",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Profesor exigente",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Anfitrión visitante",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Capitán tripulación",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Bibliotecaria lector",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Comerciante comprador",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Narrador jugador",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Energía baja",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Energía media",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Energía alta",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Energía variable",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Mordacidad nula",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Mordacidad suave",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Mordacidad media",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Mordacidad fuerte",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Humor nulo",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Humor seco",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Humor absurdo",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Humor de camaradería",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Humor costumbrista",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Humor satírico",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Humor autoparódico",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Humor narrativo",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Sin marcadores",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Emojis mínimos",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Emojis expresivos",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Kaomojis suaves",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Kaomojis tímidos",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Kaomojis traviesos",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Kaomojis serenos",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Kaomojis sorprendidos",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Kaomojis de protesta",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Risas discretas",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Risa exuberante",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Interjecciones",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Refranes",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Muletilla muy ocasional",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Aparte entre paréntesis",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Puntos suspensivos intencionados",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Comillas irónicas",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Mayúsculas puntuales",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Onomatopeyas discretas",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Metáforas náuticas",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Metáforas técnicas",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Analogías culinarias",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Tratamientos",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Ningún tic obligatorio",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Sócrates",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Diógenes de Sinope",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Marco Aurelio",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Leonardo da Vinci",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Ada Lovelace",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Marie Curie",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Nikola Tesla",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Jane Austen",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Oscar Wilde",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Miguel de Cervantes",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Julio Verne",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "H. P. Lovecraft",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Alan Turing",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Carl Sagan",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Chavela Vargas",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Nasreddin (figura folclórica)",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Don Quijote",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Sancho Panza",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Sherlock Holmes",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Dr. House",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Gandalf",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Tony Stark",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Frieren",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Aragorn",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Loki mítico",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Anansi tradicional",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Baba Yaga folclórica",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Arsène Lupin",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Poirot",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Columbo",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Mafalda",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Mary Poppins",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Divulgador científico vivaz",
+    "path": "referents/contemporary-types.md"
+   },
+   {
+    "name": "Economista libertario polémico",
+    "path": "referents/contemporary-types.md"
+   },
+   {
+    "name": "Presentadora de entrevistas incisiva",
+    "path": "referents/contemporary-types.md"
+   },
+   {
+    "name": "Emprendedor visionario",
+    "path": "referents/contemporary-types.md"
+   },
+   {
+    "name": "Activista ambiental perseverante",
+    "path": "referents/contemporary-types.md"
+   },
+   {
+    "name": "Comediante de observación",
+    "path": "referents/contemporary-types.md"
+   },
+   {
+    "name": "Streamer técnico entretenido",
+    "path": "referents/contemporary-types.md"
+   },
+   {
+    "name": "Chef mediático exigente",
+    "path": "referents/contemporary-types.md"
+   },
+   {
+    "name": "Profesor universitario carismático",
+    "path": "referents/contemporary-types.md"
+   },
+   {
+    "name": "Arquitecto de software público",
+    "path": "referents/contemporary-types.md"
+   }
+  ],
+  "hersona-role": [
+   {
+    "name": "alien",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "angel",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "antihero",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Apprentice",
+    "path": "roles/mentors-care.md",
+    "original_name": "apprentice",
+    "merged_into_canonical": true
+   },
+   {
+    "name": "artist",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "assassin",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "bartender",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "best_friend",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "big_brother",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "big_sister",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "bodyguard",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "chef",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "childhood_friend",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "chosen_one",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "commander",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "cyborg",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "delinquent",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "demon",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "doctor",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "dragon",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "engineer",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "entrepreneur",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "fairy",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "fallen_hero",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "gakkyuu_iinchou",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "gamer_otaku",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "ghost",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "goddess",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "heroine",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "hikikomori",
+    "path": "roles/social-domestic.md",
+    "original_name": "hikikomori",
+    "merged_into_canonical": true
+   },
+   {
+    "name": "honor_student",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "idol",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "journalist",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "kitsune",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "knight",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "kouhai",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "little_brother",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "little_sister",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "lone_wolf",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "maid",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "mediator",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "mentor",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "mercenary",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "mother_figure",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "noble",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "nurse",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "office_worker",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "ojou_sama",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "oni",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "prince",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "rival",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "robot_android",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "school_nurse",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "scientist",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "seitokaicho",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "senpai",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "shrine_maiden",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Sidekick",
+    "path": "roles/mentors-care.md",
+    "original_name": "sidekick",
+    "merged_into_canonical": true
+   },
+   {
+    "name": "soldier",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "teacher",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "tenkousei",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "twin",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "underdog",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "vampire",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "villain",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "witch",
+    "path": "roles/fantasy-myth.md"
+   }
+  ],
+  "hersona-personality": [
+   {
+    "name": "airhead",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "battle_junkie",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "charmer",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "chuunibyou",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "crybaby",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "dandere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "deadpan",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "deredere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "diligent",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "drama_queen",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "genki",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "gluttonous",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "go_getter",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "hautaine",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "himedere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "hinedere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "hot_blooded",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "intellectual",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "kamidere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "klutz",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "kuudere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "laid_back",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "mysterious",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "narcissist",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "optimist",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "persona_lock",
+    "path": "mechanics/composition.md"
+   },
+   {
+    "name": "pessimist",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "playful",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "pragmatist",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "protective",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "puppyish",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "rebel",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "sadodere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "sassy",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "scheming",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "serious",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "sociable",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "socially_anxious",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "stoic",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "switch",
+    "path": "mechanics/composition.md"
+   },
+   {
+    "name": "tsundere",
+    "path": "temperaments/anime-dere.md"
+   }
+  ],
+  "hersona-hobby": [
+   {
+    "name": "art",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "astronomy",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "baking",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "board_games",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "cafe_hopping",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "calligraphy",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "camping",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "coffee",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "collecting",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "cooking",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "cosplay",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "crafting",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "cycling",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "dance",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "fashion",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "fishing",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "flower_arrangement",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "fortune_telling",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "gamer",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "gardening",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "hiking",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "history_buff",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "karaoke",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "knitting",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "languages",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "makeup",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "martial_arts",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "meditation",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "model_building",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "movies",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "music",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "occult",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "pet_care",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "photography",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "pottery",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "programming",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "puzzles",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "reading",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "running",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "sado",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "shopping",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "singing",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "skateboarding",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "sports",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "surfing",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "swimming",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "trains",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "travel",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "wine",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "writing",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "yoga",
+    "path": "tastes/contrasts.md"
+   }
+  ],
+  "hersona-speech-tones": [
+   {
+    "name": "archaic",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "blunt",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "burikko",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "business",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "keigo",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "mischievous",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "mixed_dialect",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "robotic",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "seductive",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "soft",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "stutter",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "theatrical",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "third_person",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "whispery",
+    "path": "voices/rhythm-syntax.md"
+   }
+  ],
+  "hersona-speech-english": [
+   {
+    "name": "aussie_en",
+    "path": "voices/english-regions.md"
+   },
+   {
+    "name": "blunt_en",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "british_en",
+    "path": "voices/english-regions.md"
+   },
+   {
+    "name": "brooklyn_en",
+    "path": "voices/english-regions.md"
+   },
+   {
+    "name": "casual_en",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "formal_en",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "irish_en",
+    "path": "voices/english-regions.md"
+   },
+   {
+    "name": "jamaican_en",
+    "path": "voices/english-regions.md"
+   },
+   {
+    "name": "midwestern_en",
+    "path": "voices/english-regions.md"
+   },
+   {
+    "name": "new_york_en",
+    "path": "voices/english-regions.md"
+   },
+   {
+    "name": "pidgin_en",
+    "path": "voices/english-regions.md"
+   },
+   {
+    "name": "punjabi_en",
+    "path": "voices/english-regions.md"
+   },
+   {
+    "name": "scottish_en",
+    "path": "voices/english-regions.md"
+   },
+   {
+    "name": "southern_us_en",
+    "path": "voices/english-regions.md"
+   },
+   {
+    "name": "valley_girl_en",
+    "path": "voices/english-regions.md"
+   }
+  ],
+  "hersona-speech-foreign": [
+   {
+    "name": "arabic",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "banmal",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "cantonese",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "french",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "german",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "hindi",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "italian",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "jondaetmal",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "keigo_zh",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "korean",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "mandarin",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "mandarin_casual",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "russian",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "seoul_casual",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "spanish",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "tagalog",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "taiwan_mandarin",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "taiwanese",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "thai",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "vietnamese",
+    "path": "voices/world-languages.md"
+   }
+  ],
+  "hersona-speech-jp": [
+   {
+    "name": "akita_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "ehime_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "gifu_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "gunma_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "hakata_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "hiroshima_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "hokkaido_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "hyogo_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "ibaraki_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "kagoshima_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "kanagawa_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "kanazawa_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "kansai_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "kochi_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "kumamoto_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "kyoto_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "mie_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "miyazaki_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "nagasaki_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "nagoya_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "nara_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "niigata_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "oita_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "okayama_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "okinawa_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "osaka_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "saga_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "saitama_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "sanuki_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "sendai_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "shimane_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "shizuoka_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "tochigi_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "tohoku_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "tokushima_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "tokyo_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "toyama_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "tsugaru_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "wakayama_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "yamagata_ben",
+    "path": "voices/japanese-regions.md"
+   },
+   {
+    "name": "yamaguchi_ben",
+    "path": "voices/japanese-regions.md"
+   }
+  ],
+  "hersona-speech-roles": [
+   {
+    "name": "akuma_oujo",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "archaic_otaku",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "boin_girl",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "boku_girl",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "bokukko",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "butler",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "chuunibyou_speech",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "dark_hero",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "densetsu_no_yuusha",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "gyaru",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "hero_yamero",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "imouto",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "isekai_cheat",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "kawaii",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "kuudere_girl",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "kuukichou",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "mahou_shoujo",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "mama",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "mesugaki",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "miko",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "musuko",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "obaachan",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "ojisan",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "ol",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "onee_kotoba",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "onee_san",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "ore_boy",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "osananajimi",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "oujo",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "princess_speech",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "ryoushi",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "sage",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "samon",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "samurai_lol",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "sensei",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "sensei_goroshi",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "shouwa_retro",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "streamer",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "taishou_retro",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "tomboy",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "tsukkomi",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "villainess",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "vtuber",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "wagahai",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "warawa",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "washi",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "wizard",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "yankee",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "yuuusha",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "z_jidai_slang",
+    "path": "voices/character-performance.md"
+   }
+  ],
+  "hersona-visual": [
+   {
+    "name": "ahoge",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "androgynous",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "animal_ears",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "black_hair",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "blonde",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "blue_hair",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "blunt_bangs",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "blush",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "bob_cut",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "braids",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "chubby",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "drill_hair",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "droopy_eyes",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "eyebags",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "eyepatch",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "freckles",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "glamorous",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "glasses",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "golden_eyes",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "gradient_hair",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "hair_bun",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "heterochromia",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "hime_cut",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "inner_color",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "jitome",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "kimono",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "long_hair",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "messy_hair",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "mole",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "muscular",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "pale_skin",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "petite",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "pink_hair",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "ponytail",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "red_eyes",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "red_hair",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "scar",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "sharp_eyes",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "short_hair",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "side_ponytail",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "silver_hair",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "slender",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "tall",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "tan",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "twintails",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "white_hair",
+    "path": "appearance/face-hair.md"
+   }
+  ],
+  "western": [
+   {
+    "name": "Innocent",
+    "path": "interview/brand-archetypes.md"
+   },
+   {
+    "name": "Explorer",
+    "path": "interview/brand-archetypes.md"
+   },
+   {
+    "name": "Sage",
+    "path": "interview/brand-archetypes.md"
+   },
+   {
+    "name": "Hero",
+    "path": "interview/brand-archetypes.md"
+   },
+   {
+    "name": "Rebel / Outlaw",
+    "path": "interview/brand-archetypes.md"
+   },
+   {
+    "name": "Magician",
+    "path": "interview/brand-archetypes.md"
+   },
+   {
+    "name": "Regular Guy / Everyman",
+    "path": "interview/brand-archetypes.md"
+   },
+   {
+    "name": "Lover",
+    "path": "interview/brand-archetypes.md"
+   },
+   {
+    "name": "Jester",
+    "path": "interview/brand-archetypes.md"
+   },
+   {
+    "name": "Caregiver",
+    "path": "interview/brand-archetypes.md"
+   },
+   {
+    "name": "Creator",
+    "path": "interview/brand-archetypes.md"
+   },
+   {
+    "name": "Ruler",
+    "path": "interview/brand-archetypes.md"
+   },
+   {
+    "name": "Mentor",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Apprentice",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Sidekick",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Grounding squire (Sancho Panza)",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Quixotic gentleman (Don Quijote)",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Cunning servant (Figaro, Scapin)",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Wise fool",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "The Wit",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Counselor / confidant",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Knight-errant",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Honest thief / Lovable rogue",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Private detective",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Sea wolf / old captain",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Whiz kid",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "The Competent Man",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Byronic hero",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Picaro (Lazarillo)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Absent-minded professor",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Curmudgeon",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Braggart (Miles Gloriosus)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Deadpan Snarker",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Jerk with a Heart of Gold",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Grumpy Old Man / Cool Old Guy",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Only Sane Man",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Cool Big Sis / Big Brother",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Eccentric Mentor",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Danger Deadpan",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Hermit",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Insufferable Genius",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Gentleman and a Scholar",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Wisecracker",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Know-it-all",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Igor-style helper",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Mad Scientist",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Bully",
+    "path": "temperaments/humor-attitude.md"
+   }
+  ],
+  "curated-aliases": [
+   {
+    "name": "boke",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "tsukkomi",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "onee-san",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "gyaru",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "villainess (akuyaku reijo)",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "miko",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "mahou shoujo",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "yankii",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "hikikomori",
+    "path": "roles/social-domestic.md",
+    "original_name": "hikikomori",
+    "merged_into_canonical": true
+   }
+  ],
+  "curated-new": [
+   {
+    "name": "Zanni (Commedia dell’arte)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Innamorati (Commedia dell’arte)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Vecchio (Commedia dell’arte)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Il Dottore pedante",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "La Signora (Commedia dell’arte)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Aragoto (kabuki)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Wagoto (kabuki)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Jitsugoto (kabuki)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Iroaku (kabuki)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Kugeaku (kabuki)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Akahime (kabuki)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Machimusume (kabuki)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Chou (ópera china)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Jing (ópera china)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Sheng (ópera china)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Dan (ópera china)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Karagöz (teatro de sombras)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Hacivat (teatro de sombras)",
+    "path": "roles/theatre-comedy.md"
+   },
+   {
+    "name": "Akyn narrador épico",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Akyn de aitys",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Ashiq azerbaiyano",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Jeli o griot",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Nasreddin Hodja (sabio-bufón)",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Anansi (trickster)",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Pedro Malasartes",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Baba Yaga (guardiana ambivalente)",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Semar (Punakawan, wayang)",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Genio de la lámpara negociador",
+    "path": "roles/folklore-world.md"
+   },
+   {
+    "name": "Piloto de dirigible",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Navegante de estrellas",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Cartógrafa imperial disidente",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Escribano de puerto",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Arriero de montaña",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Espadachín cortesano",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Cronista de campaña",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Exploradora arqueológica",
+    "path": "roles/history-adventure.md"
+   },
+   {
+    "name": "Majo de sainete",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Petimetre de sainete",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "El fresco de sainete",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Relator de fútbol barrial",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Almacenero de barrio",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Payador de contrapunto",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Cuidador de estancia",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Cuentacuentos de fogón",
+    "path": "roles/regional-characters.md"
+   },
+   {
+    "name": "Mentora de laboratorio",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Curadora de archivos",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Traductora cultural",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Bibliotecario comunitario",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Orientador vocacional",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Guía de museo interactivo",
+    "path": "roles/mentors-care.md"
+   },
+   {
+    "name": "Forense digital metódico",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Entrevistadora de historia oral",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Etnógrafo observador",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Lector de manuscritos",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Investigadora de campo",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Cartógrafa de conocimiento",
+    "path": "roles/inquiry-scholarship.md"
+   },
+   {
+    "name": "Operadora de centro de control",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Diseñador de accesibilidad",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Ebanista restaurador",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Montador de radioaficionados",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Documentalista técnico",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Ingeniera de seguridad paciente",
+    "path": "roles/trades-technology.md"
+   },
+   {
+    "name": "Analista de operaciones sobria",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Vendedor consultivo",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Facilitadora de reuniones",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Reclutadora de potencial",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Especialista de atención intercultural",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Moderador conciliador",
+    "path": "roles/business-social.md"
+   },
+   {
+    "name": "Xenolingüista de primer contacto",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Jardinera de domo marciano",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Historiador de simulaciones",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Mediador entre humanos e IA",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Archivista de nave generacional",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Mecánica de robots domésticos",
+    "path": "roles/scifi-futures.md"
+   },
+   {
+    "name": "Alquimista de barrio",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Cronista de dragones",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Guardiana de portales",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Bibliotecario de grimorios",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Mercader feérico",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Boticaria de aldea",
+    "path": "roles/fantasy-myth.md"
+   },
+   {
+    "name": "Senpai torpe pero fiable",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Tsukkomi agotado",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Maestra de dojo paciente",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Villainess reformada",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Mecánica de mecha",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Arquivista de gremio aventurero",
+    "path": "roles/anime-games.md"
+   },
+   {
+    "name": "Vecino manitas",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Tía de anécdotas",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Compañero de biblioteca",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Anfitriona de cena",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Colega de sobremesa",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Viejo artesano",
+    "path": "roles/social-domestic.md"
+   },
+   {
+    "name": "Afecto por actos",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Cariño pudoroso",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Cálido sin efusividad",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Lealtad tranquila",
+    "path": "temperaments/affection-attachment.md"
+   },
+   {
+    "name": "Entusiasmo de ráfagas",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Impaciencia constructiva",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Calma contagiosa",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Curiosidad insomne",
+    "path": "temperaments/reactivity-energy.md"
+   },
+   {
+    "name": "Introversión hospitalaria",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Desconfiado con las premisas",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Extroversión selectiva",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Formalidad afectuosa",
+    "path": "temperaments/social-character.md"
+   },
+   {
+    "name": "Pensamiento por analogías",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Escepticismo amable",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Perfeccionismo localizado",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Decisión reversible",
+    "path": "temperaments/cognition-decisions.md"
+   },
+   {
+    "name": "Orgullo artesanal",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Autoridad humilde",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Rebeldía cortés",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Justicia compasiva",
+    "path": "temperaments/values-pride.md"
+   },
+   {
+    "name": "Escéptico esperanzado",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Rudo ceremonial",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Caótico ordenado",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Solemne juguetón",
+    "path": "temperaments/contradictions.md"
+   },
+   {
+    "name": "Sunao-kuudere",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Kuudere inquisitiva",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Dandere competente",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Tsundere adulta",
+    "path": "temperaments/anime-dere.md"
+   },
+   {
+    "name": "Humor impertérrito",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Autoparodia noble",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Provocación pedagógica",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Melancolía luminosa",
+    "path": "temperaments/humor-attitude.md"
+   },
+   {
+    "name": "Encuadernación artesanal",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Grabado tradicional",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Cartelería antigua",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Música de cámara",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Leyendas orales",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Teatro de sombras",
+    "path": "tastes/culture-crafts.md"
+   },
+   {
+    "name": "Retrocomputación",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Cartografía de datos",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Máquinas mecánicas",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Protocolos olvidados",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Criptografía histórica",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Astronomía práctica",
+    "path": "tastes/technical-curiosity.md"
+   },
+   {
+    "name": "Pan recién horneado",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Paseos bajo lluvia",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Ferias de usados",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Plantas aromáticas",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Desayunos lentos",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Cuadernos cuadriculados",
+    "path": "tastes/daily-pleasures.md"
+   },
+   {
+    "name": "Detesta la palabrería",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Desconfía de las promesas grandiosas",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Detesta el postureo académico",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Rechaza el desprecio a principiantes",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Desconfía de las modas fugaces",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Detesta las falsas dicotomías",
+    "path": "tastes/aversions.md"
+   },
+   {
+    "name": "Defiende el conocimiento abierto",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Defiende el mantenimiento",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Protege el tiempo ajeno",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Valora la hospitalidad",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Defiende el juego creativo",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Valora la exactitud humilde",
+    "path": "tastes/values.md"
+   },
+   {
+    "name": "Ordena por tamaños absurdos",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Cuenta escalones al subir",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Colecciona etiquetas viejas",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Dibuja diagramas en servilletas",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Huele los libros antes de leer",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Guarda tornillos raros",
+    "path": "tastes/rituals-quirks.md"
+   },
+   {
+    "name": "Busca etimologías inesperadas",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Persigue mapas inexistentes",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Prueba cada fuente tipográfica",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Escucha ruidos de máquinas",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Compara versiones de cuentos",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Colecciona finales alternativos",
+    "path": "tastes/obsessions.md"
+   },
+   {
+    "name": "Ama el silencio y los festivales",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Desprecia la burocracia y colecciona formularios",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Impaciente con el software y paciente con plantas",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Austero con ropa y extravagante con libros",
+    "path": "tastes/contrasts.md"
+   },
+   {
+    "name": "Cortesía sin servilismo",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Confianza de taller",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Formalidad cercana",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Neutralidad internacional",
+    "path": "voices/register-address.md"
+   },
+   {
+    "name": "Frases de dos tiempos",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Cadencia de fogón",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Ráfagas entusiastas",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Pausas meditativas",
+    "path": "voices/rhythm-syntax.md"
+   },
+   {
+    "name": "Comparación mecánica",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Metáfora botánica",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Alegoría marinera sobria",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Paradoja didáctica",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Ironía socrática",
+    "path": "voices/rhetoric-metaphor.md"
+   },
+   {
+    "name": "Humor de contraste",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Remate en voz baja",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Ironía propia",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Farsa burocrática",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Humor metalingüístico",
+    "path": "voices/humor-delivery.md"
+   },
+   {
+    "name": "Español paraguayo urbano discreto",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Jopara contextual",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español canario coloquial",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español centroamericano neutral",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Español andino urbano",
+    "path": "voices/spanish-regions.md"
+   },
+   {
+    "name": "Portugués brasileño neutro",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Portugués europeo formal",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Guaraní paraguayo",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Hindi conversacional",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Turco conversacional",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Suajili estándar",
+    "path": "voices/world-languages.md"
+   },
+   {
+    "name": "Crónica de explorador",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Teatro de máscaras",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Telegrama clásico",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Epopeya contenida",
+    "path": "voices/genre-period.md"
+   },
+   {
+    "name": "Respuesta en capas",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Conversación de sobremesa",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Bitácora amistosa",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Tutor interrogativo moderado",
+    "path": "voices/interaction-format.md"
+   },
+   {
+    "name": "Mayordomo de confianza",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "Bufón filosófico",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "Capitán salado",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "Archivista arcana",
+    "path": "voices/character-performance.md"
+   },
+   {
+    "name": "Emoticones ASCII ocasionales",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Silencio expresivo",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Símbolos de navegación",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Paréntesis cómicos",
+    "path": "voices/markers.md"
+   },
+   {
+    "name": "Chaleco de explorador",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Delantal de taller",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Guantes de bibliotecaria",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Uniforme de nave espacial",
+    "path": "appearance/clothing.md"
+   },
+   {
+    "name": "Ojos somnolientos",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Mechones rebeldes",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Sonrisa de media luna",
+    "path": "appearance/face-hair.md"
+   },
+   {
+    "name": "Postura de navegante",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Silueta de bibliotecaria",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Presencia de atleta retirado",
+    "path": "appearance/silhouette.md"
+   },
+   {
+    "name": "Tarjeta perforada",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Binoculares de latón",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Miniatura de faro",
+    "path": "appearance/props.md"
+   },
+   {
+    "name": "Gris de laboratorio antiguo",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Luz cálida de taberna",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Marfil de archivo",
+    "path": "appearance/palette.md"
+   },
+   {
+    "name": "Asistente de laboratorio educativo",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Facilitador de onboarding",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Asistente de biblioteca pública",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Personaje narrador de mundos",
+    "path": "interview/audience-purpose.md"
+   },
+   {
+    "name": "Compañero de taller creativo",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Editor y autora",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Guía y explorador",
+    "path": "interview/relationship.md"
+   },
+   {
+    "name": "Humor de contraste alto",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Energía de episodios",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Mordacidad técnica",
+    "path": "interview/energy-humor.md"
+   },
+   {
+    "name": "Hipatia de Alejandría",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Mary Shelley",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Jorge Luis Borges",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Nellie Bly",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "W. E. B. Du Bois",
+    "path": "referents/deceased.md"
+   },
+   {
+    "name": "Samwise Gamgee",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Hermione Granger",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Spock",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Jean-Luc Picard",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Monk (detective ficticio)",
+    "path": "referents/fictional.md"
+   },
+   {
+    "name": "Especialista en diseño inclusivo",
+    "path": "referents/contemporary-types.md"
+   },
+   {
+    "name": "Podcaster de historia crítica",
+    "path": "referents/contemporary-types.md"
+   },
+   {
+    "name": "Investigadora de seguridad responsable",
+    "path": "referents/contemporary-types.md"
+   },
+   {
+    "name": "Divulgadora ambiental paciente",
+    "path": "referents/contemporary-types.md"
+   }
+  ]
+ },
+ "curated_extras_after_migration": 19
+}
