@@ -40,27 +40,16 @@ Neither one declares a winner. You read the replies and pick.
 
 ## Install
 
-Copy each skill into your Hermes skills directory. They are independent: the tester grades any `SOUL.md`, not only the ones this creator made.
-
-```bash
-cp -R soul-creator ~/.hermes/skills/soul-creator
-cp -R soul-tester  ~/.hermes/skills/soul-tester
-```
-
-A profile keeps its skills under `~/.hermes/profiles/<name>/skills/`. When one is active, follow `$HERMES_HOME`.
-
-Nothing to install. Both skills are Python's standard library and nothing else.
-
-### From GitHub, once this repo is public
-
-`hermes skills install` takes one skill at a time, so the two land in two commands.
+`hermes skills install` takes one skill at a time, so the two land in two commands:
 
 ```bash
 hermes skills install MrFaviod/soul-creator/soul-creator
 hermes skills install MrFaviod/soul-creator/soul-tester
 ```
 
-Hermes reads the identifier as `owner/repo/path/to/skill` and copies the whole skill directory, supporting files included. To have the repo show up in `hermes skills search` without typing the full identifier, add it as a source first:
+Hermes reads the identifier as `owner/repo/path/to/skill` and copies the whole skill directory, supporting files included. The two skills are independent: the tester grades any `SOUL.md`, not only the ones this creator made.
+
+To have the repo show up in `hermes skills search` without typing the full identifier, add it as a source first:
 
 ```bash
 hermes skills tap add MrFaviod/soul-creator
@@ -68,6 +57,10 @@ hermes skills search soul
 ```
 
 `skills.sh.json` at the repository root groups the two skills under one heading, which both the Skills Hub and [skills.sh](https://skills.sh) read.
+
+A profile keeps its skills under `~/.hermes/profiles/<name>/skills/`. When one is active, follow `$HERMES_HOME`.
+
+Nothing to install. Both skills are Python's standard library and nothing else.
 
 ## How it goes
 
@@ -138,7 +131,7 @@ Run the tests with `python3 -m unittest discover -s tests` inside either skill.
 
 ## Credits
 
-`soul-creator` borrows ideas from [Hersona](https://github.com/shiro-0x/hersona): trait identifiers, intensity levels, compatibility hints, the persona lock, and its benchmark scenarios. Hersona's templates and scenarios are CC0 1.0, its code is MIT, and none of that code is copied here. The longer note is in [`soul-creator/README.md`](soul-creator/README.md).
+Inspired by [Hersona](https://github.com/shiro-0x/hersona) by shiro-0x: "346 reusable character attributes for AI agent personas — compose, measure, and port system-prompt personas. Build once. Keep personality everywhere." Several of its archetypes are used here.
 
 ## License
 
